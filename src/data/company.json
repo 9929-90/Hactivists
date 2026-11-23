@@ -1,0 +1,47 @@
+{
+  "brand": "The Hacktivists Security",
+  "tagline": "Cybersecurity Confidence. Compliance Simplified.",
+  "website": "https://www.thehacktivists.in",
+  "contact": {
+    "phones": [
+      "+91 968-098-1337",
+      "+91 86907 21337"
+    ],
+    "whatsapp": "https://wa.me/919680981337",
+    "emails": [
+      "Info@thehacktivists.com",
+      "info@thehacktivists.in"
+    ]
+  },
+  "instructorAccreditations": [
+    "OSCP",
+    "OSEE",
+    "OSCE",
+    "eCXD",
+    "eMAPT",
+    "eWPTX",
+    "eWDP",
+    "CEH",
+    "CHFI",
+    "CISSP",
+    "CISM",
+    "CISA"
+  ],
+  "offices": [
+    {
+      "name": "Head Office (Udaipur)",
+      "building": "City Center Complex",
+      "address": "504-505, 5th Floor, City Center Complex, Ashok Nagar Main Rd, Shakti Nagar, Udaipur, Rajasthan 313001"
+    },
+    {
+      "name": "Mumbai Office",
+      "building": "Goregaon West Hub",
+      "address": "Besides, AK Estate, Radisson Blu Hotel, Swami Vivekananda Rd, off Veer Savarkar Flyover, Udyog Nagar, Goregaon West, Mumbai, Maharashtra 400062"
+    },
+    {
+      "name": "Jaipur Regional Office",
+      "building": "Govindam Tower",
+      "address": "G-27, Govindam Tower, Kalwar Road, Kardhani, Jaipur – 302012, Rajasthan, India"
+    }
+  ]
+}

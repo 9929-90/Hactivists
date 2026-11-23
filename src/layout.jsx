@@ -1,0 +1,55 @@
+import React,{useEffect,useState} from 'react';
+import {Link,NavLink,useLocation,useNavigate} from 'react-router-dom';
+import {SERVICES,SOLUTIONS,TRAININGS,TOPICS,company,trByCode,iconOf,NUM1,NUM2,PH_MAIN,tel} from './data.js';
+import {Icon,WaIcon,Tag} from './ui.jsx';
+import {openConsult,notify,mailto} from './bus.js';
+
+function Dd({label,to,active,small,children}){const[shut,setShut]=useState(false);
+return <div className={'dd'+(shut?' shut':'')} onMouseLeave={()=>setShut(false)}><Link to={to} className={'dd-l'+(active?' active':'')}>{label}<Icon n="chev" s={14}/></Link>
+<div className={'dd-m'+(small?' sm':'')} onClick={()=>{setShut(true);document.activeElement?.blur?.()}}>{children}</div></div>}
+
+export function Header(){const[o,setO]=useState(false);const[sc,setSc]=useState(false);const{pathname,hash}=useLocation();
+useEffect(()=>{setO(false)},[pathname,hash]);useEffect(()=>{document.body.style.overflow=o?'hidden':''},[o]);
+useEffect(()=>{const f=()=>setSc(scrollY>24);f();addEventListener('scroll',f,{passive:true});return()=>removeEventListener('scroll',f)},[]);
+const home=pathname==='/';
+return <><header className={'hdr'+(sc||o?' sc':'')}><div className="wrap hdr-in"><Link to="/" className="logo" aria-label="The Hacktivists Security home"><img src="/images/logo.png" alt="The Hacktivists" width="140" height="34"/></Link>
+<nav className="nav dsk" aria-label="Main"><NavLink to="/" end>Home</NavLink>
+<Dd label="Solutions" to="/solutions" active={pathname.startsWith('/solutions')}><div className="dd-h">KEY FRAMEWORKS &amp; REGULATIONS</div>{SOLUTIONS.map(it=><Link key={it.id} className="dd-i" to={'/services/'+it.id}><span><b>{it.name}</b><small>{it.desc}</small></span><Icon n="right" s={16}/></Link>)}</Dd>
+<Dd label="Services" to="/services" active={pathname.startsWith('/services')}><div className="dd-h">AUDIT • VAPT • LEADERSHIP</div>{SERVICES.map(s=>s.subServices?.length?<div className="dd-row" key={s.id}><Link className="dd-i" to={'/services/'+s.id}><span><b>{s.title}</b><small>{s.badge}</small></span><Icon n="right" s={16}/></Link>
+<div className="dd-fly">{s.subServices.map(x=><Link key={x.id} className="dd-i" to={'/services/'+x.id}><span className="ic"><Icon n={iconOf(x)} s={16}/>{x.title}</span><Icon n="right" s={16}/></Link>)}</div></div>:<Link key={s.id} className="dd-i" to={'/services/'+s.id}><span><b>{s.title}</b><small>{s.badge}</small></span><Icon n="right" s={16}/></Link>)}</Dd>
+<Dd label="Training" to="/training" active={pathname.startsWith('/training')}><div className="dd-h">ACADEMY • 40+ COURSES</div>{TRAININGS.slice(0,4).map(t=><Link key={t.id} className="dd-i" to={'/training/'+t.id}><span><b>{t.code} — {t.title}</b><small>{t.badge}</small></span><span className="pr">{t.price}</span></Link>)}<Link className="dd-all" to="/training">Explore All 40+ Courses →</Link></Dd>
+<Dd label="Company" to="/about" active={pathname==="/about"||pathname==="/contact"} small><Link className="dd-i" to="/about"><span><b>About Us</b><small>Our Mission &amp; Values</small></span><Icon n="right" s={16}/></Link><Link className="dd-i" to="/contact"><span><b>Contact Us</b><small>Multi-Hub Locations</small></span><Icon n="right" s={16}/></Link></Dd></nav>
+<div className="hdr-act dsk"><a className="tel num" href={tel(PH_MAIN)}><Icon n="phone" s={16}/><span>{PH_MAIN}</span></a><button className="btn btn-primary btn-sm" onClick={openConsult}>Book a Free Consultation</button></div>
+<div className="mob-act"><button className="btn btn-primary btn-sm" onClick={openConsult}>Consult</button><button className="burger" aria-label="Menu" aria-expanded={o} onClick={()=>setO(!o)}><i/><i/></button></div></div>
+<div className="qrow" aria-label="Quick access"><Link to="/solutions">Solutions</Link><Link to="/services">Services</Link><Link to="/about">About Us</Link><Link to="/contact">Contact</Link></div></header>
+<div className={'drawer'+(o?' open':'')} aria-hidden={!o}><Link to="/"><span>Home</span>{home&&<em>Current</em>}</Link><Link to="/solutions">Solutions</Link><Link to="/services">Compliance Services</Link><Link to="/training"><span>Training Programs (40+ Courses)</span><em>Explore</em></Link><div className="dr-h">Company</div><Link className="sub" to="/about">About Us (Our Mission &amp; Values)</Link><Link className="sub" to="/contact">Contact Us &amp; Multi-Hub Locations</Link>
+<div className="dr-act"><a className="btn btn-ghost" href={tel(PH_MAIN)}><Icon n="phone" s={18}/>{PH_MAIN}</a><a className="btn btn-primary" href={company.contact.whatsapp} target="_blank" rel="noopener noreferrer"><WaIcon/>WhatsApp Admissions</a></div></div></>}
+
+export function Footer(){const L=(to,t)=><li><Link to={to}>{t}</Link></li>;
+return <footer className="ftr"><div className="wrap"><div className="ftr-grid"><div className="fb"><img src="/images/logo.png" alt="The Hacktivists" width="140" height="34"/><p>Your trusted partner for cybersecurity compliance, penetration testing, and IT security certifications.</p><dl className="fcon"><dt>Tel 1</dt><dd className="num"><a href={tel(NUM1)}>{NUM1}</a></dd><dt>Tel 2</dt><dd className="num"><a href={tel(NUM2)}>{NUM2}</a></dd><dt>Email</dt><dd><a href={'mailto:'+company.contact.emails[0]}>{company.contact.emails[0]}</a></dd></dl></div>
+<div><h4>FRAMEWORKS</h4><ul>{L('/services/'+SERVICES[0].id,'ISO 27001 Certification')}{L('/services/'+SERVICES[1].id,'SOC 2 Type I & II')}{L('/services/'+SERVICES[2].id,'ISO 42001 AI Governance')}{L('/services/'+SERVICES[3].id,'DPDP Act (India)')}{L('/services/'+SERVICES[4].id,'VAPT Penetration Testing')}</ul></div>
+<div><h4>TRAINING PROGRAMS</h4><ul>{L('/training','All 40+ Certifications')}{L('/training/'+trByCode('AWSE').id,'AWSE — Web Security Expert')}{L('/training/'+trByCode('AWAE').id,'AWAE — API Attacks & Exploit')}{L('/training/'+trByCode('AIEE').id,'AIEE — Advanced Infra Exploit')}{L('/training/'+trByCode('PSA').id,'PSA — Professional SOC Analyst')}</ul></div>
+<div><h4>OUR HUBS</h4><ul className="hubs"><li><b>Head Office:</b> 504-505 City Center, Shakti Nagar, Udaipur</li><li><b>Mumbai Desk:</b> Udyog Nagar, Goregaon West, Mumbai</li><li><b>Jaipur Office:</b> Govindam Tower, Kalwar Road, Jaipur</li></ul></div></div>
+<div className="fbar"><span>© {new Date().getFullYear()} The Hacktivists Security. All rights reserved.</span><span className="legal"><span>Privacy Policy</span><span>•</span><span>Terms of Engagement</span><span>•</span><span>Non-Disclosure Assurance</span></span></div></div></footer>}
+
+export const MobileBar=()=><div className="mbar"><a className="btn btn-red" href={tel(PH_MAIN)}>Call now</a><a className="btn btn-primary" href={company.contact.whatsapp}>WhatsApp</a></div>;
+
+const Modal=({onClose,children})=>{useEffect(()=>{const k=e=>e.key==='Escape'&&onClose();addEventListener('keydown',k);document.body.style.overflow='hidden';return()=>{removeEventListener('keydown',k);document.body.style.overflow=''}},[onClose]);
+return <div className="mdl" onMouseDown={e=>e.target===e.currentTarget&&onClose()}><div className="mdl-b" role="dialog" aria-modal="true"><button className="mdl-x" aria-label="Close" onClick={onClose}><Icon n="x" s={18}/></button>{children}</div></div>};
+
+export function Overlays(){const[toast,setToast]=useState(null);const[consult,setConsult]=useState(false);const[demo,setDemo]=useState(null);const nav=useNavigate();
+useEffect(()=>{let t;const a=e=>{setToast(e.detail);clearTimeout(t);t=setTimeout(()=>setToast(null),5000)},b=()=>setConsult(true),c=e=>setDemo(e.detail);
+addEventListener('toast',a);addEventListener('consult',b);addEventListener('demo',c);return()=>{removeEventListener('toast',a);removeEventListener('consult',b);removeEventListener('demo',c);clearTimeout(t)}},[]);
+const sendConsult=e=>{e.preventDefault();const f=Object.fromEntries(new FormData(e.currentTarget));setConsult(false);notify('Consultation Request Logged','Our lead auditor will reach out to you within 2 business hours.');
+mailto('Free consultation request: '+f.topic,[['Name',f.name],['Email',f.email],['Phone',f.phone],['Topic',f.topic]])};
+const sendDemo=e=>{e.preventDefault();const f=Object.fromEntries(new FormData(e.currentTarget));const label=`${demo.code} — ${demo.title}`;setDemo(null);notify('Free Demo Registered!',`Your live demo session for ${label} is confirmed. Our trainer will contact you shortly.`);
+mailto('Free demo request: '+f.course,[['Name',f.name],['Phone',f.phone],['Email',f.email],['Course',f.course],['Batch / questions',f.message]],company.contact.emails[1])};
+return <>{toast&&<div className="toast" role="status"><div className="toast-i"><Icon n="check" s={20}/></div><div><b>{toast.title}</b><span>{toast.body}</span></div><button aria-label="Dismiss" onClick={()=>setToast(null)}><Icon n="x" s={16}/></button></div>}
+{consult&&<Modal onClose={()=>setConsult(false)}><div className="mdl-h"><div className="ico"><Icon n="shieldcheck"/></div><div><h3>Book a Free Consultation</h3><span>Direct 30-min strategy call with our Lead Auditor</span></div></div>
+<form className="form" onSubmit={sendConsult}><label>Your Name<input name="name" required placeholder="Enter full name" autoComplete="name"/></label><div className="f2"><label>Work Email<input name="email" type="email" required placeholder="name@company.com" autoComplete="email"/></label><label>Phone Number<input name="phone" type="tel" required placeholder="+91 96809 81337" autoComplete="tel"/></label></div>
+<label>Topic / Framework of Interest<select name="topic">{TOPICS.map(t=><option key={t}>{t}</option>)}</select></label><div className="f-foot"><span className="note">NDA protected • No sales spam</span><button className="btn btn-primary">Confirm Booking</button></div></form></Modal>}
+{demo&&<Modal onClose={()=>setDemo(null)}><div className="mdl-h"><div className="ico"><Icon n="grad"/></div><div><div className="tag red"><i/>LIVE 1-ON-1 SESSION • {demo.code}</div><h3>Register for a Free Demo</h3></div></div>
+<form className="form" onSubmit={sendDemo}><label>Enter Your Name<b className="rq">*</b><input name="name" required placeholder="Enter full name" autoComplete="name"/></label><div className="f2"><label>Phone<b className="rq">*</b><input name="phone" type="tel" required placeholder="+91 96809 81337" autoComplete="tel"/></label><label>Enter Your Email<b className="rq">*</b><input name="email" type="email" required placeholder="name@example.com" autoComplete="email"/></label></div>
+<label>Selected Training Course<select name="course" defaultValue={`${demo.code} - ${demo.title}`}>{TRAININGS.map(t=><option key={t.id} value={`${t.code} - ${t.title}`}>{t.code} — {t.title} ({t.price||'Inquire'})</option>)}</select></label>
+<label>Preferred Batch / Questions (Optional)<textarea name="message" rows="2" placeholder="Weekday / weekend preference or lab questions..."/></label>
+<div className="f-foot"><button type="button" className="more" onClick={()=>{const t=demo;setDemo(null);nav('/training/'+t.id)}}>View Full Course Details →</button><button className="btn btn-primary">Book Free Demo</button></div></form></Modal>}</>}

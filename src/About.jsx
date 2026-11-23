@@ -1,6 +1,7 @@
-import React,{useEffect} from 'react';import {Link} from 'react-router-dom';import {Intro,Hero} from './shared.jsx';
-const v=[['Authorized only','Every test starts with written permission and an NDA.'],['Non-destructive','We prove the risk without taking your systems down.'],['Plain reports','Findings ranked by impact, with the fix beside each one.']];
-export default function About(){useEffect(()=>{const io=new IntersectionObserver(es=>es.forEach(e=>e.isIntersecting&&(e.target.classList.add('in'),io.unobserve(e.target))),{threshold:.12});document.querySelectorAll('[data-r]').forEach(el=>io.observe(el));return()=>io.disconnect()},[]);
-return <><Hero title="Ethical hackers, based in Udaipur" lead="Hachtivists is a cybersecurity team for offensive testing, digital forensics and compliance." art="network"/>
-<Intro t="Built on a simple belief"><p>The best way to protect a system is to attack it first, with permission. Our team works from Udaipur and serves clients across India and beyond, bringing experience in penetration testing, malware analysis, cloud security and compliance. We keep teams small and senior, so the people who scope your project are the people who test it. Reports are written in plain language, with proof of concept and fix guidance beside every finding. We also invest in training and research, because attackers never stop learning and neither can the people who defend against them.</p></Intro><section className="sec"><div className="wrap grid3">{v.map(([t,d])=><div className="card card-b" data-r key={t}><h3>{t}</h3><p>{d}</p></div>)}</div></section>
-<section className="cta"><div className="wrap"><h2>Want a test scoped for your product?</h2><div className="row c"><Link className="btn btn-blue" to="/contact">Get a quote</Link></div></div></section></>}
+import React,{useState} from 'react';
+import {about} from './data.js';
+import {useReveal,Words,Tag,Btn,Icon,TrainContact} from './ui.jsx';
+export default function About(){useReveal();const[course,setCourse]=useState('');
+return <><section className="phero"><div className="glow g1"/><div className="wrap"><Tag>Our Company</Tag><h1 data-w><Words parts={[['About '],['Us','c']]}/></h1><p className="lead" data-r>{about[0]}</p></div></section>
+<section className="sec tight"><div className="wrap split top"><div className="prose-l">{about.slice(1).map((p,i)=><p key={i} data-r style={{'--d':i*90+'ms'}}>{p}</p>)}<div className="row" data-r><Btn href="https://wa.me/919680981337" target="_blank" rel="noopener">Chat with us on WhatsApp by clicking the button<Icon n="arrow" s={18}/></Btn></div></div>
+<TrainContact course={course} setCourse={setCourse}/></div></section></>}

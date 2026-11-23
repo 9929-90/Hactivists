@@ -1,0 +1,4124 @@
+[
+  {
+    "id": "awse",
+    "code": "AWSE",
+    "title": "Advanced Web Security Expert",
+    "subtitle": "MODERN WEB EXPLOITATION & PENTESTING",
+    "badge": "WEB APPSEC",
+    "category": "web-appsec",
+    "price": "$199",
+    "duration": "40 Hours",
+    "level": "Intermediate to Advanced",
+    "mode": "Live Labs & 24/7 Cloud Range",
+    "syllabusPdfUrl": "https://drive.google.com/file/d/1zMvgGOFxGwDQezHixctgRBgQKV05br6H/view",
+    "syllabusPdfDownloadUrl": "https://drive.google.com/uc?export=download&id=1zMvgGOFxGwDQezHixctgRBgQKV05br6H",
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "Introduction to Web Applications & Lab Setup",
+        "topics": [
+          "Understanding Web Applications, HTTP/HTTPS & Client-Server Architecture",
+          "Setting Up Penetration Testing Lab (Kali Linux, Burp Suite Pro, OWASP Juice Shop, DVWA, bWAPP)",
+          "Intercepting & Manipulating HTTP/HTTPS Requests and Responses",
+          "Understanding Modern Web Technologies, Frameworks & Databases"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Information Gathering & Reconnaissance",
+        "topics": [
+          "Passive & Active Reconnaissance Methodologies",
+          "Subdomain Enumeration, Virtual Host Discovery & ASN Mapping",
+          "Directory & File Brute-Forcing, Parameter Discovery & Content Fuzzing",
+          "JavaScript File Analysis, Hidden Endpoints & Sensitive Token Extraction"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Authentication & Session Management Vulnerabilities",
+        "topics": [
+          "Brute Force, Credential Stuffing & Username Enumeration Attacks",
+          "Password Reset Poisoning, Host Header Injection & Weak Token Generation",
+          "Session Fixation, Session Hijacking & Insecure Cookie Flags (HttpOnly, Secure, SameSite)",
+          "Multi-Factor Authentication (2FA / OTP) Bypass Techniques"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "JSON Web Token (JWT) & OAuth 2.0 Exploitation",
+        "topics": [
+          "JWT Structure, Header/Payload Manipulation & Signature Verification Flaws",
+          "None Algorithm Attack, RS256-to-HS256 Key Confusion & Weak Secret Cracking",
+          "JWK / JKU Header Injection & Kid Path Traversal Attacks",
+          "OAuth 2.0 Misconfigurations, Open Redirects & Account Takeover Flows"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Broken Access Control, IDOR & Privilege Escalation",
+        "topics": [
+          "Horizontal & Vertical Privilege Escalation Across User Roles",
+          "Insecure Direct Object References (IDOR) & Predictable Identifiers",
+          "HTTP Method Override, Parameter Pollution (HPP) & Mass Assignment",
+          "Admin Panel Bypass & Multi-Tenant Authorization Flaws"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "SQL Injection (SQLi) — Basic to Advanced Exploitation",
+        "topics": [
+          "Error-Based, UNION-Based, Boolean-Blind & Time-Based SQL Injection",
+          "Authentication Bypass & Database Fingerprinting (MySQL, MSSQL, PostgreSQL, Oracle)",
+          "Second-Order SQL Injection & JSON/XML-Based SQLi Payloads",
+          "Out-of-Band (OOB) Data Exfiltration & Privilege Escalation to RCE"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "Cross-Site Scripting (XSS) — Reflected, Stored & DOM",
+        "topics": [
+          "Reflected XSS, Stored XSS & Blind XSS Exploitation Pipelines",
+          "DOM-Based XSS Sources & Sinks, PostMessage & DOM Clobbering",
+          "Bypassing HTML/JavaScript Filters & Content Security Policy (CSP)",
+          "Session Hijacking, Keylogging & Full Account Takeover via XSS"
+        ]
+      },
+      {
+        "number": "Module 08",
+        "title": "Cross-Site Request Forgery (CSRF), CORS & Clickjacking",
+        "topics": [
+          "Exploiting State-Changing Requests via CSRF & Anti-CSRF Token Bypasses",
+          "SameSite Cookie Mechanics & Content-Type Manipulation",
+          "Cross-Origin Resource Sharing (CORS) Origin Reflection & Null Origin Attacks",
+          "UI Redressing, Frame-Busting Bypasses & Advanced Clickjacking"
+        ]
+      },
+      {
+        "number": "Module 09",
+        "title": "Server-Side Request Forgery (SSRF)",
+        "topics": [
+          "Basic & Blind SSRF Detection Using Out-of-Band Collaborator Payloads",
+          "Bypassing IP Blacklists (Decimal/Octal/IPv6 Encoding & DNS Rebinding)",
+          "Exploiting Cloud Instance Metadata (AWS IMDSv1/v2, Azure & GCP)",
+          "Internal Port Scanning & Protocol Smuggling (Gopher, Dict, File)"
+        ]
+      },
+      {
+        "number": "Module 10",
+        "title": "XML External Entity (XXE) & XSLT Injection",
+        "topics": [
+          "In-Band & Blind Out-of-Band XXE Local File Disclosure",
+          "XXE via File Uploads (SVG, DOCX, XLSX) & Content-Type Switching",
+          "SSRF & Billion Laughs Denial-of-Service via XML Parsers",
+          "Server-Side XSLT Injection & Code Execution"
+        ]
+      },
+      {
+        "number": "Module 11",
+        "title": "Server-Side Template Injection (SSTI)",
+        "topics": [
+          "Identifying & Fingerprinting Template Engines (Jinja2, Twig, Freemarker, Velocity)",
+          "Python & Java Sandbox Escapes and Object Introspection",
+          "Achieving Remote Code Execution (RCE) via SSTI",
+          "Hardening & Sandboxing Template Engines"
+        ]
+      },
+      {
+        "number": "Module 12",
+        "title": "Insecure Deserialization",
+        "topics": [
+          "Understanding Serialization Formats (PHP, Java, Python Pickle, .NET)",
+          "PHP Object Injection, Magic Methods & POP Gadget Chains",
+          "Java Deserialization Exploitation Using Ysoserial",
+          "Detecting & Remediating Untrusted Deserialization"
+        ]
+      },
+      {
+        "number": "Module 13",
+        "title": "File Upload Vulnerabilities, Path Traversal & LFI/RFI",
+        "topics": [
+          "Bypassing Extension, MIME-Type & Magic-Byte File Upload Restrictions",
+          "Web Shell Upload, Polyglot Files & ImageTragick Exploitation",
+          "Path Traversal & Local File Inclusion (LFI) to RCE (Log Poisoning, PHP Wrappers)",
+          "Remote File Inclusion (RFI) & Zip Slip Archive Attacks"
+        ]
+      },
+      {
+        "number": "Module 14",
+        "title": "OS Command Injection & Business Logic Flaws",
+        "topics": [
+          "Direct & Blind OS Command Injection on Linux and Windows",
+          "Filter Bypasses Using Command Separators, Encodings & Wildcards",
+          "Exploiting Payment Workflows, Coupon Abuse & Race Conditions (TOCTOU)",
+          "Subdomain Takeover & Web Cache Poisoning / HTTP Request Smuggling"
+        ]
+      },
+      {
+        "number": "Module 15",
+        "title": "WAF Evasion & Chaining Vulnerabilities",
+        "topics": [
+          "Encoding, Obfuscation & Payload Fragmentation to Bypass WAFs",
+          "Chaining Low & Medium Severity Bugs into Critical Impact Exploits",
+          "Real-World Bug Bounty Methodology & Live Target Hunting Approach",
+          "Remediation Verification & Patch Validation"
+        ]
+      },
+      {
+        "number": "Module 16",
+        "title": "Vulnerability Assessment & Penetration Testing Reporting",
+        "topics": [
+          "CVSS v3.1 Severity Scoring & Business Risk Classification",
+          "Writing Step-by-Step Proof-of-Concept (PoC) Reproduction Guides",
+          "Structuring Executive Summaries & Developer Remediation Reports",
+          "Final AWSE 24-Hour Practical Certification Exam Readiness"
+        ]
+      }
+    ],
+    "summary": "This training includes most advanced web application attacks, exploitation and pentesting techniques.",
+    "description": "Master advanced web application attacks, chained exploitation vectors, authentication bypasses, SSRF, deserialization, SSTI, and modern pentesting techniques in a dedicated 24/7 cyber range.",
+    "highlights": [
+      "24/7 Dedicated Cloud Cyber Range Access",
+      "Chained Exploitation & Filter Evasion Labs",
+      "Real-World Bug Bounty & Pentest Scenarios",
+      "Official AWSE Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "What are the prerequisites for AWSE?",
+        "a": "Basic understanding of HTTP/HTTPS protocols, HTML/JavaScript, and foundational web security concepts."
+      },
+      {
+        "q": "How is the certification exam conducted?",
+        "a": "A 24-hour hands-on practical lab assessment requiring exploitation of target web applications and submission of a professional pentest report."
+      }
+    ]
+  },
+  {
+    "id": "awae",
+    "code": "AWAE",
+    "title": "Advanced Web Service {API} Attacks And Exploitation",
+    "subtitle": "REST, GRAPHQL & MICROSERVICES SECURITY",
+    "badge": "API SECURITY",
+    "category": "web-appsec",
+    "price": "$179",
+    "duration": "35 Hours",
+    "level": "Intermediate to Advanced",
+    "mode": "Live Labs & 24/7 Cloud Range",
+    "summary": "Solve modern web service security issues discovered during bug bounty hunting and pentesting.",
+    "description": "Deep-dive into REST, GraphQL, SOAP, and gRPC API security. Exploit BOLA/IDOR, JWT vulnerabilities, OAuth 2.0 misconfigurations, mass assignment, and rate-limit bypasses.",
+    "highlights": [
+      "REST, GraphQL & gRPC Exploitation Labs",
+      "OAuth 2.0, JWT & API Gateway Attack Vectors",
+      "Automated & Manual API Fuzzing Workflows",
+      "Official AWAE Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Does this course cover GraphQL and OAuth attacks?",
+        "a": "Yes, dedicated lab modules cover GraphQL introspection/batching attacks and OAuth token hijacking."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "AWAE Architecture, Threat Modeling & Attack Surface",
+        "topics": [
+          "Modern Application Stack & Security Architecture for Advanced Web Service {API} Attacks And Exploitation",
+          "Attack Surface Mapping, Endpoint Enumeration & Asset Discovery",
+          "Static Reconnaissance, Binary/Source Inspection & Secret Hunting",
+          "Lab Environment Setup & Intercepting Proxy Configuration"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Authentication, Session & Token Security Exploitation",
+        "topics": [
+          "Authentication Bypass Vectors, Brute-Force & Rate-Limit Evasion",
+          "Session Fixation, Token Entropy Analysis & Cookie Security",
+          "JWT, OAuth 2.0 & SSO Implementation Flaws",
+          "Multi-Factor Authentication (MFA) & Password Reset Weaknesses"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Authorization, Privilege Escalation & Business Logic",
+        "topics": [
+          "Horizontal & Vertical Privilege Escalation (IDOR / BOLA)",
+          "Broken Function Level Authorization & Mass Assignment",
+          "Multi-Step Workflow Tampering & Race Condition Exploitation",
+          "Client-Side Trust Bypass & State Manipulation"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Injection Attacks & Server-Side Exploitation",
+        "topics": [
+          "SQL, NoSQL, LDAP & Command Injection Payloads",
+          "Server-Side Request Forgery (SSRF) & Internal Service Pivoting",
+          "Template Injection (SSTI), XXE & Insecure Deserialization",
+          "File Upload Bypasses, Path Traversal & Local File Inclusion"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Client-Side, Runtime & Protocol-Level Attacks",
+        "topics": [
+          "Cross-Site Scripting (XSS), DOM Manipulation & CSP Bypasses",
+          "Runtime Instrumentation, Hooking & SSL Pinning Evasion",
+          "CORS Misconfigurations, CSRF & Inter-Process Exploitation",
+          "Traffic Replay, Encryption Weaknesses & Binary Patching"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "Advanced Defense Evasion, Remediation & Reporting",
+        "topics": [
+          "Bypassing WAFs, Runtime Protections & Input Filters",
+          "Chaining Multiple Vulnerabilities for High-Impact Exploits",
+          "Secure Code Remediation & Architectural Hardening",
+          "AWAE Practical Certification Lab Walkthrough & Pentest Reporting"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "AWAE Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "REST, GraphQL & gRPC Exploitation Labs",
+          "OAuth 2.0, JWT & API Gateway Attack Vectors",
+          "Automated & Manual API Fuzzing Workflows",
+          "Official AWAE Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official AWAE Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aaae",
+    "code": "AAAE",
+    "title": "Advanced Android Application Exploitation",
+    "subtitle": "MOBILE APK REVERSE ENGINEERING & PENTEST",
+    "badge": "MOBILE APPSEC",
+    "category": "web-appsec",
+    "price": "$179",
+    "duration": "35 Hours",
+    "level": "Intermediate to Advanced",
+    "mode": "Live Labs & Mobile Emulators",
+    "summary": "The most excellent exercises and practicals to solve modern android application security issues.",
+    "description": "Learn static and dynamic Android security analysis, Smali patching, Frida instrumentation, SSL pinning bypass, root detection evasion, and insecure IPC exploitation.",
+    "highlights": [
+      "Frida & Objection Runtime Instrumentation",
+      "SSL Pinning & Root Detection Bypass Labs",
+      "APK Decompilation, Smali Patching & Re-signing",
+      "Official AAAE Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Do I need a physical rooted Android device?",
+        "a": "No, all labs run smoothly on pre-configured cloud and local Android emulator environments."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "AAAE Architecture, Threat Modeling & Attack Surface",
+        "topics": [
+          "Modern Application Stack & Security Architecture for Advanced Android Application Exploitation",
+          "Attack Surface Mapping, Endpoint Enumeration & Asset Discovery",
+          "Static Reconnaissance, Binary/Source Inspection & Secret Hunting",
+          "Lab Environment Setup & Intercepting Proxy Configuration"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Authentication, Session & Token Security Exploitation",
+        "topics": [
+          "Authentication Bypass Vectors, Brute-Force & Rate-Limit Evasion",
+          "Session Fixation, Token Entropy Analysis & Cookie Security",
+          "JWT, OAuth 2.0 & SSO Implementation Flaws",
+          "Multi-Factor Authentication (MFA) & Password Reset Weaknesses"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Authorization, Privilege Escalation & Business Logic",
+        "topics": [
+          "Horizontal & Vertical Privilege Escalation (IDOR / BOLA)",
+          "Broken Function Level Authorization & Mass Assignment",
+          "Multi-Step Workflow Tampering & Race Condition Exploitation",
+          "Client-Side Trust Bypass & State Manipulation"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Injection Attacks & Server-Side Exploitation",
+        "topics": [
+          "SQL, NoSQL, LDAP & Command Injection Payloads",
+          "Server-Side Request Forgery (SSRF) & Internal Service Pivoting",
+          "Template Injection (SSTI), XXE & Insecure Deserialization",
+          "File Upload Bypasses, Path Traversal & Local File Inclusion"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Client-Side, Runtime & Protocol-Level Attacks",
+        "topics": [
+          "Cross-Site Scripting (XSS), DOM Manipulation & CSP Bypasses",
+          "Runtime Instrumentation, Hooking & SSL Pinning Evasion",
+          "CORS Misconfigurations, CSRF & Inter-Process Exploitation",
+          "Traffic Replay, Encryption Weaknesses & Binary Patching"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "Advanced Defense Evasion, Remediation & Reporting",
+        "topics": [
+          "Bypassing WAFs, Runtime Protections & Input Filters",
+          "Chaining Multiple Vulnerabilities for High-Impact Exploits",
+          "Secure Code Remediation & Architectural Hardening",
+          "AAAE Practical Certification Lab Walkthrough & Pentest Reporting"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "AAAE Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Frida & Objection Runtime Instrumentation",
+          "SSL Pinning & Root Detection Bypass Labs",
+          "APK Decompilation, Smali Patching & Re-signing",
+          "Official AAAE Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official AAAE Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aiae",
+    "code": "AIAE",
+    "title": "Advanced iOS Application Exploitation",
+    "subtitle": "IPA BINARY ANALYSIS & RUNTIME HOOKING",
+    "badge": "MOBILE APPSEC",
+    "category": "web-appsec",
+    "price": "$159",
+    "duration": "35 Hours",
+    "level": "Intermediate to Advanced",
+    "mode": "Live Labs & Practical Ranges",
+    "summary": "This training includes most advanced iOS application attacks, exploitation and pentesting techniques.",
+    "description": "Master iOS application architecture, IPA decryption, Keychain dumping, Objective-C/Swift runtime manipulation with Frida, jailbreak detection bypass, and local storage forensics.",
+    "highlights": [
+      "iOS Keychain & Plist Data Extraction",
+      "Runtime Method Swizzling & Frida Hooking",
+      "SSL Pinning & Jailbreak Detection Evasion",
+      "Official AIAE Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Is a Mac required to follow the labs?",
+        "a": "Our instructors demonstrate both macOS and Linux/Windows-compatible iOS assessment workflows."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "AIAE Architecture, Threat Modeling & Attack Surface",
+        "topics": [
+          "Modern Application Stack & Security Architecture for Advanced iOS Application Exploitation",
+          "Attack Surface Mapping, Endpoint Enumeration & Asset Discovery",
+          "Static Reconnaissance, Binary/Source Inspection & Secret Hunting",
+          "Lab Environment Setup & Intercepting Proxy Configuration"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Authentication, Session & Token Security Exploitation",
+        "topics": [
+          "Authentication Bypass Vectors, Brute-Force & Rate-Limit Evasion",
+          "Session Fixation, Token Entropy Analysis & Cookie Security",
+          "JWT, OAuth 2.0 & SSO Implementation Flaws",
+          "Multi-Factor Authentication (MFA) & Password Reset Weaknesses"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Authorization, Privilege Escalation & Business Logic",
+        "topics": [
+          "Horizontal & Vertical Privilege Escalation (IDOR / BOLA)",
+          "Broken Function Level Authorization & Mass Assignment",
+          "Multi-Step Workflow Tampering & Race Condition Exploitation",
+          "Client-Side Trust Bypass & State Manipulation"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Injection Attacks & Server-Side Exploitation",
+        "topics": [
+          "SQL, NoSQL, LDAP & Command Injection Payloads",
+          "Server-Side Request Forgery (SSRF) & Internal Service Pivoting",
+          "Template Injection (SSTI), XXE & Insecure Deserialization",
+          "File Upload Bypasses, Path Traversal & Local File Inclusion"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Client-Side, Runtime & Protocol-Level Attacks",
+        "topics": [
+          "Cross-Site Scripting (XSS), DOM Manipulation & CSP Bypasses",
+          "Runtime Instrumentation, Hooking & SSL Pinning Evasion",
+          "CORS Misconfigurations, CSRF & Inter-Process Exploitation",
+          "Traffic Replay, Encryption Weaknesses & Binary Patching"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "Advanced Defense Evasion, Remediation & Reporting",
+        "topics": [
+          "Bypassing WAFs, Runtime Protections & Input Filters",
+          "Chaining Multiple Vulnerabilities for High-Impact Exploits",
+          "Secure Code Remediation & Architectural Hardening",
+          "AIAE Practical Certification Lab Walkthrough & Pentest Reporting"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "AIAE Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "iOS Keychain & Plist Data Extraction",
+          "Runtime Method Swizzling & Frida Hooking",
+          "SSL Pinning & Jailbreak Detection Evasion",
+          "Official AIAE Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official AIAE Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "acse",
+    "code": "ACSE",
+    "title": "Advanced CMS Security Expert",
+    "subtitle": "WORDPRESS, DRUPAL & JOOMLA EXPLOITATION",
+    "badge": "WEB APPSEC",
+    "category": "web-appsec",
+    "price": "$199",
+    "duration": "30 Hours",
+    "level": "Intermediate",
+    "mode": "Live Labs & 24/7 Cloud Range",
+    "summary": "This training includes the most advanced Automated and Manual CMS webapp attacks, exploitation and pentesting techniques.",
+    "description": "Assess, exploit, and harden enterprise Content Management Systems including WordPress, Drupal, Joomla, and Magento through plugin vulnerability auditing and privilege escalation.",
+    "highlights": [
+      "Custom Plugin & Theme Source Auditing",
+      "Automated & Manual CMS Enumeration",
+      "RCE, SQLi & Privilege Escalation in CMS",
+      "Official ACSE Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Which CMS platforms are covered?",
+        "a": "WordPress, Drupal, Joomla, Magento, and headless CMS implementations."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "ACSE Architecture, Threat Modeling & Attack Surface",
+        "topics": [
+          "Modern Application Stack & Security Architecture for Advanced CMS Security Expert",
+          "Attack Surface Mapping, Endpoint Enumeration & Asset Discovery",
+          "Static Reconnaissance, Binary/Source Inspection & Secret Hunting",
+          "Lab Environment Setup & Intercepting Proxy Configuration"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Authentication, Session & Token Security Exploitation",
+        "topics": [
+          "Authentication Bypass Vectors, Brute-Force & Rate-Limit Evasion",
+          "Session Fixation, Token Entropy Analysis & Cookie Security",
+          "JWT, OAuth 2.0 & SSO Implementation Flaws",
+          "Multi-Factor Authentication (MFA) & Password Reset Weaknesses"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Authorization, Privilege Escalation & Business Logic",
+        "topics": [
+          "Horizontal & Vertical Privilege Escalation (IDOR / BOLA)",
+          "Broken Function Level Authorization & Mass Assignment",
+          "Multi-Step Workflow Tampering & Race Condition Exploitation",
+          "Client-Side Trust Bypass & State Manipulation"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Injection Attacks & Server-Side Exploitation",
+        "topics": [
+          "SQL, NoSQL, LDAP & Command Injection Payloads",
+          "Server-Side Request Forgery (SSRF) & Internal Service Pivoting",
+          "Template Injection (SSTI), XXE & Insecure Deserialization",
+          "File Upload Bypasses, Path Traversal & Local File Inclusion"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Client-Side, Runtime & Protocol-Level Attacks",
+        "topics": [
+          "Cross-Site Scripting (XSS), DOM Manipulation & CSP Bypasses",
+          "Runtime Instrumentation, Hooking & SSL Pinning Evasion",
+          "CORS Misconfigurations, CSRF & Inter-Process Exploitation",
+          "Traffic Replay, Encryption Weaknesses & Binary Patching"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "Advanced Defense Evasion, Remediation & Reporting",
+        "topics": [
+          "Bypassing WAFs, Runtime Protections & Input Filters",
+          "Chaining Multiple Vulnerabilities for High-Impact Exploits",
+          "Secure Code Remediation & Architectural Hardening",
+          "ACSE Practical Certification Lab Walkthrough & Pentest Reporting"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "ACSE Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Custom Plugin & Theme Source Auditing",
+          "Automated & Manual CMS Enumeration",
+          "RCE, SQLi & Privilege Escalation in CMS",
+          "Official ACSE Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official ACSE Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wscd",
+    "code": "WSCD",
+    "title": "Web Application Secure Code Defender",
+    "subtitle": "SAST, CODE AUDITING & SECURE SDLC",
+    "badge": "SECURE CODE",
+    "category": "web-appsec",
+    "price": "$179",
+    "duration": "30 Hours",
+    "level": "Intermediate",
+    "mode": "Live Code Labs & Workshops",
+    "summary": "This training delivers developers and pentesters a deep understanding of the anatomy of the most common web attacks.",
+    "description": "Bridge offensive exploitation and defensive engineering. Audit vulnerable codebases, eliminate injection and auth flaws at the root, and integrate automated SAST pipelines.",
+    "highlights": [
+      "White-Box Source Code Vulnerability Auditing",
+      "Secure Remediation Patterns for Modern Frameworks",
+      "CI/CD SAST & DevSecOps Gate Integration",
+      "Official WSCD Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Is WSCD suitable for software developers?",
+        "a": "Yes, it is specifically designed for both application security engineers and full-stack developers."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "WSCD Architecture, Threat Modeling & Attack Surface",
+        "topics": [
+          "Modern Application Stack & Security Architecture for Web Application Secure Code Defender",
+          "Attack Surface Mapping, Endpoint Enumeration & Asset Discovery",
+          "Static Reconnaissance, Binary/Source Inspection & Secret Hunting",
+          "Lab Environment Setup & Intercepting Proxy Configuration"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Authentication, Session & Token Security Exploitation",
+        "topics": [
+          "Authentication Bypass Vectors, Brute-Force & Rate-Limit Evasion",
+          "Session Fixation, Token Entropy Analysis & Cookie Security",
+          "JWT, OAuth 2.0 & SSO Implementation Flaws",
+          "Multi-Factor Authentication (MFA) & Password Reset Weaknesses"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Authorization, Privilege Escalation & Business Logic",
+        "topics": [
+          "Horizontal & Vertical Privilege Escalation (IDOR / BOLA)",
+          "Broken Function Level Authorization & Mass Assignment",
+          "Multi-Step Workflow Tampering & Race Condition Exploitation",
+          "Client-Side Trust Bypass & State Manipulation"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Injection Attacks & Server-Side Exploitation",
+        "topics": [
+          "SQL, NoSQL, LDAP & Command Injection Payloads",
+          "Server-Side Request Forgery (SSRF) & Internal Service Pivoting",
+          "Template Injection (SSTI), XXE & Insecure Deserialization",
+          "File Upload Bypasses, Path Traversal & Local File Inclusion"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Client-Side, Runtime & Protocol-Level Attacks",
+        "topics": [
+          "Cross-Site Scripting (XSS), DOM Manipulation & CSP Bypasses",
+          "Runtime Instrumentation, Hooking & SSL Pinning Evasion",
+          "CORS Misconfigurations, CSRF & Inter-Process Exploitation",
+          "Traffic Replay, Encryption Weaknesses & Binary Patching"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "Advanced Defense Evasion, Remediation & Reporting",
+        "topics": [
+          "Bypassing WAFs, Runtime Protections & Input Filters",
+          "Chaining Multiple Vulnerabilities for High-Impact Exploits",
+          "Secure Code Remediation & Architectural Hardening",
+          "WSCD Practical Certification Lab Walkthrough & Pentest Reporting"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "WSCD Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "White-Box Source Code Vulnerability Auditing",
+          "Secure Remediation Patterns for Modern Frameworks",
+          "CI/CD SAST & DevSecOps Gate Integration",
+          "Official WSCD Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official WSCD Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tcse",
+    "code": "TCSE",
+    "title": "Thick Client Application Security Expert",
+    "subtitle": ".NET, JAVA & DESKTOP BINARY PENTESTING",
+    "badge": "APPSEC",
+    "category": "web-appsec",
+    "price": "$159",
+    "duration": "30 Hours",
+    "level": "Intermediate to Advanced",
+    "mode": "Live Labs & Windows Targets",
+    "summary": "Pentest thick client applications and identifying logical security issues which typically unknow.",
+    "description": "Decompile .NET and Java desktop binaries, intercept non-HTTP thick-client traffic, exploit DLL hijacking, memory tampering, and insecure local registry/file storage.",
+    "highlights": [
+      ".NET & Java Decompilation & Patching",
+      "Proxy Interception for Thick Client Protocols",
+      "DLL Hijacking & Memory Manipulation Labs",
+      "Official TCSE Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "What tools are taught in TCSE?",
+        "a": "dnSpy, JD-GUI, Echo Mirage, Process Monitor, API Monitor, and Burp Suite."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "TCSE Architecture, Threat Modeling & Attack Surface",
+        "topics": [
+          "Modern Application Stack & Security Architecture for Thick Client Application Security Expert",
+          "Attack Surface Mapping, Endpoint Enumeration & Asset Discovery",
+          "Static Reconnaissance, Binary/Source Inspection & Secret Hunting",
+          "Lab Environment Setup & Intercepting Proxy Configuration"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Authentication, Session & Token Security Exploitation",
+        "topics": [
+          "Authentication Bypass Vectors, Brute-Force & Rate-Limit Evasion",
+          "Session Fixation, Token Entropy Analysis & Cookie Security",
+          "JWT, OAuth 2.0 & SSO Implementation Flaws",
+          "Multi-Factor Authentication (MFA) & Password Reset Weaknesses"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Authorization, Privilege Escalation & Business Logic",
+        "topics": [
+          "Horizontal & Vertical Privilege Escalation (IDOR / BOLA)",
+          "Broken Function Level Authorization & Mass Assignment",
+          "Multi-Step Workflow Tampering & Race Condition Exploitation",
+          "Client-Side Trust Bypass & State Manipulation"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Injection Attacks & Server-Side Exploitation",
+        "topics": [
+          "SQL, NoSQL, LDAP & Command Injection Payloads",
+          "Server-Side Request Forgery (SSRF) & Internal Service Pivoting",
+          "Template Injection (SSTI), XXE & Insecure Deserialization",
+          "File Upload Bypasses, Path Traversal & Local File Inclusion"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Client-Side, Runtime & Protocol-Level Attacks",
+        "topics": [
+          "Cross-Site Scripting (XSS), DOM Manipulation & CSP Bypasses",
+          "Runtime Instrumentation, Hooking & SSL Pinning Evasion",
+          "CORS Misconfigurations, CSRF & Inter-Process Exploitation",
+          "Traffic Replay, Encryption Weaknesses & Binary Patching"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "Advanced Defense Evasion, Remediation & Reporting",
+        "topics": [
+          "Bypassing WAFs, Runtime Protections & Input Filters",
+          "Chaining Multiple Vulnerabilities for High-Impact Exploits",
+          "Secure Code Remediation & Architectural Hardening",
+          "TCSE Practical Certification Lab Walkthrough & Pentest Reporting"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "TCSE Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          ".NET & Java Decompilation & Patching",
+          "Proxy Interception for Thick Client Protocols",
+          "DLL Hijacking & Memory Manipulation Labs",
+          "Official TCSE Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official TCSE Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aiee",
+    "code": "AIEE",
+    "title": "Advanced Infrastructure Exploitation Expert",
+    "subtitle": "ACTIVE DIRECTORY, PIVOTING & RED TEAMING",
+    "badge": "OFFENSIVE INFRA",
+    "category": "offensive-infra",
+    "price": "$349",
+    "duration": "60 Hours",
+    "level": "Advanced",
+    "mode": "Multi-Subnet Enterprise Cyber Range",
+    "summary": "Learn infrastructure hacking, Latest exploits, highly relevant Teaching a wide variety of offensive techniques.",
+    "description": "Flagship offensive infrastructure course covering network pivoting, Active Directory exploitation, Kerberoasting, unconstrained delegation, lateral movement, and post-exploitation.",
+    "highlights": [
+      "Multi-Domain Active Directory Attack Labs",
+      "Double Pivoting, SOCKS Proxying & Tunneling",
+      "Windows & Linux Kernel/Service Privilege Escalation",
+      "Official AIEE 24-Hour Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Does AIEE prepare students for OSCP-style exams?",
+        "a": "Yes, AIEE mirrors real-world multi-machine enterprise networks and Active Directory labs."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "AIEE Enterprise Reconnaissance & Enumeration",
+        "topics": [
+          "Core Foundations & Methodology for Advanced Infrastructure Exploitation Expert",
+          "Active & Passive Network Discovery, Service & Banner Fingerprinting",
+          "Protocol-Level Enumeration (SMB, LDAP, Kerberos, SNMP, DNS)",
+          "Identifying Misconfigurations & Exposed Enterprise Attack Surfaces"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Vulnerability Validation & Exploitation Tradecraft",
+        "topics": [
+          "Manual Vulnerability Verification & False-Positive Elimination",
+          "Public Exploit Customization, Compilation & Payload Delivery",
+          "Bypassing Endpoint Controls & Network Segmentation",
+          "Post-Exploitation Situational Awareness & Credential Harvesting"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Windows & Linux Privilege Escalation",
+        "topics": [
+          "Linux SUID/SGID, Capabilities, Kernel & Cron Job Escalation",
+          "Windows Service Permissions, Token Impersonation & Unquoted Paths",
+          "Registry, Scheduled Tasks & Credential Store Extraction",
+          "Maintaining Operational Stability During Target Assessment"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Active Directory & Enterprise Lateral Movement",
+        "topics": [
+          "Active Directory Enumeration with BloodHound & PowerView",
+          "Kerberoasting, AS-REP Roasting & Delegation Abuse",
+          "Pass-the-Hash, Pass-the-Ticket & Overpass-the-Hash Attacks",
+          "Domain Dominance, DCSync & Persistence Mechanisms"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Multi-Hop Pivoting, Tunneling & Protocol Attacks",
+        "topics": [
+          "SOCKS Proxying, SSH Tunneling & Chisel Port Forwarding",
+          "Double & Triple Pivoting Across Restricted Internal Subnets",
+          "Protocol-Specific Exploitation & Traffic Interception",
+          "Lateral Movement Without Triggering SOC Alerts"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "Hardening, Remediation & Executive Pentest Reporting",
+        "topics": [
+          "Prioritized Risk Remediation & Defensive Countermeasures",
+          "CVSS v3.1 Scoring & Step-by-Step PoC Documentation",
+          "Executive Summary vs. Technical Remediation Appendix",
+          "AIEE Final Practical Lab Exam Preparation"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "AIEE Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Multi-Domain Active Directory Attack Labs",
+          "Double Pivoting, SOCKS Proxying & Tunneling",
+          "Windows & Linux Kernel/Service Privilege Escalation",
+          "Official AIEE 24-Hour Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official AIEE Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vaptx",
+    "code": "VAPTx",
+    "title": "Enterprise Vulnerability Assessment and Penetration Testing",
+    "subtitle": "FULL-SCOPE ENTERPRISE PENTESTING",
+    "badge": "OFFENSIVE INFRA",
+    "category": "offensive-infra",
+    "price": "$179",
+    "duration": "45 Hours",
+    "level": "Intermediate",
+    "mode": "Live Labs & 24/7 Cloud Range",
+    "summary": "VAPTx training includes practical like identify vulnerabilities, multiple points of exploits failure and more..",
+    "description": "Execute structured enterprise vulnerability assessments and penetration tests from reconnaissance and enumeration to exploitation, post-exploitation, and executive reporting.",
+    "highlights": [
+      "End-to-End Enterprise VAPT Methodology",
+      "False-Positive Elimination & Manual Validation",
+      "Chained Exploitation & Privilege Escalation",
+      "Official VAPTx Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Does VAPTx include reporting templates?",
+        "a": "Yes, students build complete executive and technical VAPT deliverables."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "VAPTx Enterprise Reconnaissance & Enumeration",
+        "topics": [
+          "Core Foundations & Methodology for Enterprise Vulnerability Assessment and Penetration Testing",
+          "Active & Passive Network Discovery, Service & Banner Fingerprinting",
+          "Protocol-Level Enumeration (SMB, LDAP, Kerberos, SNMP, DNS)",
+          "Identifying Misconfigurations & Exposed Enterprise Attack Surfaces"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Vulnerability Validation & Exploitation Tradecraft",
+        "topics": [
+          "Manual Vulnerability Verification & False-Positive Elimination",
+          "Public Exploit Customization, Compilation & Payload Delivery",
+          "Bypassing Endpoint Controls & Network Segmentation",
+          "Post-Exploitation Situational Awareness & Credential Harvesting"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Windows & Linux Privilege Escalation",
+        "topics": [
+          "Linux SUID/SGID, Capabilities, Kernel & Cron Job Escalation",
+          "Windows Service Permissions, Token Impersonation & Unquoted Paths",
+          "Registry, Scheduled Tasks & Credential Store Extraction",
+          "Maintaining Operational Stability During Target Assessment"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Active Directory & Enterprise Lateral Movement",
+        "topics": [
+          "Active Directory Enumeration with BloodHound & PowerView",
+          "Kerberoasting, AS-REP Roasting & Delegation Abuse",
+          "Pass-the-Hash, Pass-the-Ticket & Overpass-the-Hash Attacks",
+          "Domain Dominance, DCSync & Persistence Mechanisms"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Multi-Hop Pivoting, Tunneling & Protocol Attacks",
+        "topics": [
+          "SOCKS Proxying, SSH Tunneling & Chisel Port Forwarding",
+          "Double & Triple Pivoting Across Restricted Internal Subnets",
+          "Protocol-Specific Exploitation & Traffic Interception",
+          "Lateral Movement Without Triggering SOC Alerts"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "Hardening, Remediation & Executive Pentest Reporting",
+        "topics": [
+          "Prioritized Risk Remediation & Defensive Countermeasures",
+          "CVSS v3.1 Scoring & Step-by-Step PoC Documentation",
+          "Executive Summary vs. Technical Remediation Appendix",
+          "VAPTx Final Practical Lab Exam Preparation"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "VAPTx Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "End-to-End Enterprise VAPT Methodology",
+          "False-Positive Elimination & Manual Validation",
+          "Chained Exploitation & Privilege Escalation",
+          "Official VAPTx Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official VAPTx Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "avae",
+    "code": "AVAE",
+    "title": "Advanced Vulnerability Assessment for Enterprise",
+    "subtitle": "ATTACK SURFACE & ASSET DISCOVERY",
+    "badge": "VULN MANAGEMENT",
+    "category": "offensive-infra",
+    "price": "$159",
+    "duration": "30 Hours",
+    "level": "Intermediate",
+    "mode": "Live Labs & Practical Ranges",
+    "summary": "Identify Any Vulnerable, Exposed Assets that Attackers Might Use as Part of a Cyberattack.",
+    "description": "Master external attack surface management, authenticated vs. unauthenticated enterprise scanning, CVSS risk prioritization, and continuous vulnerability lifecycle remediation.",
+    "highlights": [
+      "External Attack Surface Discovery & OSINT",
+      "Enterprise Scanner Tuning & Credentialed Audits",
+      "Risk-Based Vulnerability Prioritization (EPSS/CVSS)",
+      "Official AVAE Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Who should enroll in AVAE?",
+        "a": "Security analysts, SOC engineers, and IT administrators managing enterprise vulnerability programs."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "AVAE Enterprise Reconnaissance & Enumeration",
+        "topics": [
+          "Core Foundations & Methodology for Advanced Vulnerability Assessment for Enterprise",
+          "Active & Passive Network Discovery, Service & Banner Fingerprinting",
+          "Protocol-Level Enumeration (SMB, LDAP, Kerberos, SNMP, DNS)",
+          "Identifying Misconfigurations & Exposed Enterprise Attack Surfaces"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Vulnerability Validation & Exploitation Tradecraft",
+        "topics": [
+          "Manual Vulnerability Verification & False-Positive Elimination",
+          "Public Exploit Customization, Compilation & Payload Delivery",
+          "Bypassing Endpoint Controls & Network Segmentation",
+          "Post-Exploitation Situational Awareness & Credential Harvesting"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Windows & Linux Privilege Escalation",
+        "topics": [
+          "Linux SUID/SGID, Capabilities, Kernel & Cron Job Escalation",
+          "Windows Service Permissions, Token Impersonation & Unquoted Paths",
+          "Registry, Scheduled Tasks & Credential Store Extraction",
+          "Maintaining Operational Stability During Target Assessment"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Active Directory & Enterprise Lateral Movement",
+        "topics": [
+          "Active Directory Enumeration with BloodHound & PowerView",
+          "Kerberoasting, AS-REP Roasting & Delegation Abuse",
+          "Pass-the-Hash, Pass-the-Ticket & Overpass-the-Hash Attacks",
+          "Domain Dominance, DCSync & Persistence Mechanisms"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Multi-Hop Pivoting, Tunneling & Protocol Attacks",
+        "topics": [
+          "SOCKS Proxying, SSH Tunneling & Chisel Port Forwarding",
+          "Double & Triple Pivoting Across Restricted Internal Subnets",
+          "Protocol-Specific Exploitation & Traffic Interception",
+          "Lateral Movement Without Triggering SOC Alerts"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "Hardening, Remediation & Executive Pentest Reporting",
+        "topics": [
+          "Prioritized Risk Remediation & Defensive Countermeasures",
+          "CVSS v3.1 Scoring & Step-by-Step PoC Documentation",
+          "Executive Summary vs. Technical Remediation Appendix",
+          "AVAE Final Practical Lab Exam Preparation"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "AVAE Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "External Attack Surface Discovery & OSINT",
+          "Enterprise Scanner Tuning & Credentialed Audits",
+          "Risk-Based Vulnerability Prioritization (EPSS/CVSS)",
+          "Official AVAE Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official AVAE Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "avsp",
+    "code": "AVSP",
+    "title": "Advanced VoIP Security Professional",
+    "subtitle": "SIP, RTP & VOICE VLAN PENTESTING",
+    "badge": "NETWORK SECURITY",
+    "category": "offensive-infra",
+    "price": "$159",
+    "duration": "30 Hours",
+    "level": "Intermediate to Advanced",
+    "mode": "Dedicated VoIP Lab Environment",
+    "summary": "VoIP pentesting involves assessing the security of a VoIP system by simulating real-world attacks to identify vulnerabilities.",
+    "description": "Build a VoIP network from scratch, analyze SIP signaling and RTP media streams, execute extension enumeration, toll fraud simulations, eavesdropping, and VoIP hardening.",
+    "highlights": [
+      "Build & Pentest Enterprise Asterisk/SIP Labs",
+      "SIP Enumeration, Registration Hijacking & Spoofing",
+      "RTP Stream Capture & Audio Reconstruction",
+      "Official AVSP Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Are VoIP servers provided in the lab?",
+        "a": "Yes, you get dedicated SIP/PBX targets in our cyber range."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "AVSP Enterprise Reconnaissance & Enumeration",
+        "topics": [
+          "Core Foundations & Methodology for Advanced VoIP Security Professional",
+          "Active & Passive Network Discovery, Service & Banner Fingerprinting",
+          "Protocol-Level Enumeration (SMB, LDAP, Kerberos, SNMP, DNS)",
+          "Identifying Misconfigurations & Exposed Enterprise Attack Surfaces"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Vulnerability Validation & Exploitation Tradecraft",
+        "topics": [
+          "Manual Vulnerability Verification & False-Positive Elimination",
+          "Public Exploit Customization, Compilation & Payload Delivery",
+          "Bypassing Endpoint Controls & Network Segmentation",
+          "Post-Exploitation Situational Awareness & Credential Harvesting"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Windows & Linux Privilege Escalation",
+        "topics": [
+          "Linux SUID/SGID, Capabilities, Kernel & Cron Job Escalation",
+          "Windows Service Permissions, Token Impersonation & Unquoted Paths",
+          "Registry, Scheduled Tasks & Credential Store Extraction",
+          "Maintaining Operational Stability During Target Assessment"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Active Directory & Enterprise Lateral Movement",
+        "topics": [
+          "Active Directory Enumeration with BloodHound & PowerView",
+          "Kerberoasting, AS-REP Roasting & Delegation Abuse",
+          "Pass-the-Hash, Pass-the-Ticket & Overpass-the-Hash Attacks",
+          "Domain Dominance, DCSync & Persistence Mechanisms"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Multi-Hop Pivoting, Tunneling & Protocol Attacks",
+        "topics": [
+          "SOCKS Proxying, SSH Tunneling & Chisel Port Forwarding",
+          "Double & Triple Pivoting Across Restricted Internal Subnets",
+          "Protocol-Specific Exploitation & Traffic Interception",
+          "Lateral Movement Without Triggering SOC Alerts"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "Hardening, Remediation & Executive Pentest Reporting",
+        "topics": [
+          "Prioritized Risk Remediation & Defensive Countermeasures",
+          "CVSS v3.1 Scoring & Step-by-Step PoC Documentation",
+          "Executive Summary vs. Technical Remediation Appendix",
+          "AVSP Final Practical Lab Exam Preparation"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "AVSP Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Build & Pentest Enterprise Asterisk/SIP Labs",
+          "SIP Enumeration, Registration Hijacking & Spoofing",
+          "RTP Stream Capture & Audio Reconstruction",
+          "Official AVSP Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official AVSP Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "awta",
+    "code": "AWTA",
+    "title": "Advanced Wireshark Network Traffic Analyst",
+    "subtitle": "DEEP PACKET INSPECTION & PCAP FORENSICS",
+    "badge": "NETWORK ANALYSIS",
+    "category": "offensive-infra",
+    "price": "$179",
+    "duration": "30 Hours",
+    "level": "Intermediate",
+    "mode": "Live PCAP Investigation Labs",
+    "summary": "This training includes analyze network traffic, traffic capturing and filtering, major key troubleshooting steps, and case studies.",
+    "description": "Inspect raw network packets, reconstruct malicious file transfers, detect C2 beaconing, troubleshoot complex TCP/TLS handshakes, and investigate real attack PCAPs.",
+    "highlights": [
+      "Custom BPF & Display Filter Engineering",
+      "Malware C2 & Exfiltration PCAP Case Studies",
+      "Protocol Anomaly & TLS Decryption Labs",
+      "Official AWTA Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Is AWTA useful for both Blue and Red teams?",
+        "a": "Yes, packet-level visibility is essential for network defenders, SOC analysts, and exploit developers."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "AWTA Enterprise Reconnaissance & Enumeration",
+        "topics": [
+          "Core Foundations & Methodology for Advanced Wireshark Network Traffic Analyst",
+          "Active & Passive Network Discovery, Service & Banner Fingerprinting",
+          "Protocol-Level Enumeration (SMB, LDAP, Kerberos, SNMP, DNS)",
+          "Identifying Misconfigurations & Exposed Enterprise Attack Surfaces"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Vulnerability Validation & Exploitation Tradecraft",
+        "topics": [
+          "Manual Vulnerability Verification & False-Positive Elimination",
+          "Public Exploit Customization, Compilation & Payload Delivery",
+          "Bypassing Endpoint Controls & Network Segmentation",
+          "Post-Exploitation Situational Awareness & Credential Harvesting"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Windows & Linux Privilege Escalation",
+        "topics": [
+          "Linux SUID/SGID, Capabilities, Kernel & Cron Job Escalation",
+          "Windows Service Permissions, Token Impersonation & Unquoted Paths",
+          "Registry, Scheduled Tasks & Credential Store Extraction",
+          "Maintaining Operational Stability During Target Assessment"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Active Directory & Enterprise Lateral Movement",
+        "topics": [
+          "Active Directory Enumeration with BloodHound & PowerView",
+          "Kerberoasting, AS-REP Roasting & Delegation Abuse",
+          "Pass-the-Hash, Pass-the-Ticket & Overpass-the-Hash Attacks",
+          "Domain Dominance, DCSync & Persistence Mechanisms"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Multi-Hop Pivoting, Tunneling & Protocol Attacks",
+        "topics": [
+          "SOCKS Proxying, SSH Tunneling & Chisel Port Forwarding",
+          "Double & Triple Pivoting Across Restricted Internal Subnets",
+          "Protocol-Specific Exploitation & Traffic Interception",
+          "Lateral Movement Without Triggering SOC Alerts"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "Hardening, Remediation & Executive Pentest Reporting",
+        "topics": [
+          "Prioritized Risk Remediation & Defensive Countermeasures",
+          "CVSS v3.1 Scoring & Step-by-Step PoC Documentation",
+          "Executive Summary vs. Technical Remediation Appendix",
+          "AWTA Final Practical Lab Exam Preparation"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "AWTA Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Custom BPF & Display Filter Engineering",
+          "Malware C2 & Exfiltration PCAP Case Studies",
+          "Protocol Anomaly & TLS Decryption Labs",
+          "Official AWTA Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official AWTA Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "awsp",
+    "code": "AWSP",
+    "title": "Advanced Wireless Security Professional",
+    "subtitle": "WPA2/WPA3 ENTERPRISE & RF PENTESTING",
+    "badge": "WIRELESS SECURITY",
+    "category": "offensive-infra",
+    "price": "$199",
+    "duration": "35 Hours",
+    "level": "Intermediate to Advanced",
+    "mode": "Live Labs & RF Attack Simulations",
+    "summary": "This in-depth and extensive training prepares you for the most advanced level of wireless security assessment.",
+    "description": "Perform enterprise wireless security assessments covering WPA2/WPA3-Personal & Enterprise (802.1X/EAP), Evil Twin attacks, Rogue AP detection, and wireless client exploitation.",
+    "highlights": [
+      "WPA2/WPA3 Handshake & PMKID Attacks",
+      "802.1X / EAP-PEAP Enterprise Credential Capture",
+      "Rogue AP, Evil Twin & Karma Attack Labs",
+      "Official AWSP Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Are virtual wireless lab interfaces provided?",
+        "a": "Yes, our simulated mac80211_hwsim cyber range allows full wireless attacks remotely."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "AWSP Enterprise Reconnaissance & Enumeration",
+        "topics": [
+          "Core Foundations & Methodology for Advanced Wireless Security Professional",
+          "Active & Passive Network Discovery, Service & Banner Fingerprinting",
+          "Protocol-Level Enumeration (SMB, LDAP, Kerberos, SNMP, DNS)",
+          "Identifying Misconfigurations & Exposed Enterprise Attack Surfaces"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Vulnerability Validation & Exploitation Tradecraft",
+        "topics": [
+          "Manual Vulnerability Verification & False-Positive Elimination",
+          "Public Exploit Customization, Compilation & Payload Delivery",
+          "Bypassing Endpoint Controls & Network Segmentation",
+          "Post-Exploitation Situational Awareness & Credential Harvesting"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Windows & Linux Privilege Escalation",
+        "topics": [
+          "Linux SUID/SGID, Capabilities, Kernel & Cron Job Escalation",
+          "Windows Service Permissions, Token Impersonation & Unquoted Paths",
+          "Registry, Scheduled Tasks & Credential Store Extraction",
+          "Maintaining Operational Stability During Target Assessment"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Active Directory & Enterprise Lateral Movement",
+        "topics": [
+          "Active Directory Enumeration with BloodHound & PowerView",
+          "Kerberoasting, AS-REP Roasting & Delegation Abuse",
+          "Pass-the-Hash, Pass-the-Ticket & Overpass-the-Hash Attacks",
+          "Domain Dominance, DCSync & Persistence Mechanisms"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Multi-Hop Pivoting, Tunneling & Protocol Attacks",
+        "topics": [
+          "SOCKS Proxying, SSH Tunneling & Chisel Port Forwarding",
+          "Double & Triple Pivoting Across Restricted Internal Subnets",
+          "Protocol-Specific Exploitation & Traffic Interception",
+          "Lateral Movement Without Triggering SOC Alerts"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "Hardening, Remediation & Executive Pentest Reporting",
+        "topics": [
+          "Prioritized Risk Remediation & Defensive Countermeasures",
+          "CVSS v3.1 Scoring & Step-by-Step PoC Documentation",
+          "Executive Summary vs. Technical Remediation Appendix",
+          "AWSP Final Practical Lab Exam Preparation"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "AWSP Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "WPA2/WPA3 Handshake & PMKID Attacks",
+          "802.1X / EAP-PEAP Enterprise Credential Capture",
+          "Rogue AP, Evil Twin & Karma Attack Labs",
+          "Official AWSP Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official AWSP Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "oihp",
+    "code": "OIHP",
+    "title": "Offensive Internet of Things (IoT) Hacking Practitioner - L1",
+    "subtitle": "FIRMWARE EXTRACTION, UART & RF HACKING",
+    "badge": "IOT & HARDWARE",
+    "category": "offensive-infra",
+    "price": "$349",
+    "duration": "45 Hours",
+    "level": "Advanced",
+    "mode": "Firmware & Emulated Hardware Labs",
+    "summary": "Advanced IoT Pentesting helps organizations reduce the risk of security vulns in IoT devices, hardware, and firmware.",
+    "description": "Extract and reverse-engineer embedded Linux firmware, analyze UART/JTAG/SPI hardware interfaces, exploit MQTT/CoAP protocols, and emulate ARM/MIPS binaries.",
+    "highlights": [
+      "Firmware Extraction, Binwalk & Filesystem Analysis",
+      "ARM/MIPS Binary Emulation with QEMU",
+      "MQTT, CoAP & Embedded Web Interface Exploitation",
+      "Official OIHP-L1 Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Do I need physical hardware to complete the labs?",
+        "a": "No, all firmware images, QEMU emulators, and IoT protocol brokers are hosted in our lab."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "OIHP Enterprise Reconnaissance & Enumeration",
+        "topics": [
+          "Core Foundations & Methodology for Offensive Internet of Things (IoT) Hacking Practitioner - L1",
+          "Active & Passive Network Discovery, Service & Banner Fingerprinting",
+          "Protocol-Level Enumeration (SMB, LDAP, Kerberos, SNMP, DNS)",
+          "Identifying Misconfigurations & Exposed Enterprise Attack Surfaces"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Vulnerability Validation & Exploitation Tradecraft",
+        "topics": [
+          "Manual Vulnerability Verification & False-Positive Elimination",
+          "Public Exploit Customization, Compilation & Payload Delivery",
+          "Bypassing Endpoint Controls & Network Segmentation",
+          "Post-Exploitation Situational Awareness & Credential Harvesting"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Windows & Linux Privilege Escalation",
+        "topics": [
+          "Linux SUID/SGID, Capabilities, Kernel & Cron Job Escalation",
+          "Windows Service Permissions, Token Impersonation & Unquoted Paths",
+          "Registry, Scheduled Tasks & Credential Store Extraction",
+          "Maintaining Operational Stability During Target Assessment"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Active Directory & Enterprise Lateral Movement",
+        "topics": [
+          "Active Directory Enumeration with BloodHound & PowerView",
+          "Kerberoasting, AS-REP Roasting & Delegation Abuse",
+          "Pass-the-Hash, Pass-the-Ticket & Overpass-the-Hash Attacks",
+          "Domain Dominance, DCSync & Persistence Mechanisms"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Multi-Hop Pivoting, Tunneling & Protocol Attacks",
+        "topics": [
+          "SOCKS Proxying, SSH Tunneling & Chisel Port Forwarding",
+          "Double & Triple Pivoting Across Restricted Internal Subnets",
+          "Protocol-Specific Exploitation & Traffic Interception",
+          "Lateral Movement Without Triggering SOC Alerts"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "Hardening, Remediation & Executive Pentest Reporting",
+        "topics": [
+          "Prioritized Risk Remediation & Defensive Countermeasures",
+          "CVSS v3.1 Scoring & Step-by-Step PoC Documentation",
+          "Executive Summary vs. Technical Remediation Appendix",
+          "OIHP Final Practical Lab Exam Preparation"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "OIHP Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Firmware Extraction, Binwalk & Filesystem Analysis",
+          "ARM/MIPS Binary Emulation with QEMU",
+          "MQTT, CoAP & Embedded Web Interface Exploitation",
+          "Official OIHP-L1 Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official OIHP Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ppse",
+    "code": "PPSE",
+    "title": "Professional PowerShell Security Expert",
+    "subtitle": "OFFENSIVE & DEFENSIVE POWERSHELL",
+    "badge": "WINDOWS SECURITY",
+    "category": "offensive-infra",
+    "price": "$159",
+    "duration": "30 Hours",
+    "level": "Intermediate",
+    "mode": "Live Windows Active Directory Labs",
+    "summary": "This training covers advanced techniques for using PowerShell and MS Windows components in the pentesting process.",
+    "description": "Leverage PowerShell for Active Directory enumeration, fileless execution, AMSI & Script Block Logging analysis, and hardened Windows defense.",
+    "highlights": [
+      "PowerShell Remoting, WMI & CIM Exploitation",
+      "AMSI, Constrained Language Mode & Script Logging",
+      "Active Directory Enumeration & Automation",
+      "Official PPSE Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Does PPSE cover defensive PowerShell logging?",
+        "a": "Yes, both offensive red-team tradecraft and blue-team detection/hardening are included."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "PPSE Enterprise Reconnaissance & Enumeration",
+        "topics": [
+          "Core Foundations & Methodology for Professional PowerShell Security Expert",
+          "Active & Passive Network Discovery, Service & Banner Fingerprinting",
+          "Protocol-Level Enumeration (SMB, LDAP, Kerberos, SNMP, DNS)",
+          "Identifying Misconfigurations & Exposed Enterprise Attack Surfaces"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Vulnerability Validation & Exploitation Tradecraft",
+        "topics": [
+          "Manual Vulnerability Verification & False-Positive Elimination",
+          "Public Exploit Customization, Compilation & Payload Delivery",
+          "Bypassing Endpoint Controls & Network Segmentation",
+          "Post-Exploitation Situational Awareness & Credential Harvesting"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Windows & Linux Privilege Escalation",
+        "topics": [
+          "Linux SUID/SGID, Capabilities, Kernel & Cron Job Escalation",
+          "Windows Service Permissions, Token Impersonation & Unquoted Paths",
+          "Registry, Scheduled Tasks & Credential Store Extraction",
+          "Maintaining Operational Stability During Target Assessment"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Active Directory & Enterprise Lateral Movement",
+        "topics": [
+          "Active Directory Enumeration with BloodHound & PowerView",
+          "Kerberoasting, AS-REP Roasting & Delegation Abuse",
+          "Pass-the-Hash, Pass-the-Ticket & Overpass-the-Hash Attacks",
+          "Domain Dominance, DCSync & Persistence Mechanisms"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Multi-Hop Pivoting, Tunneling & Protocol Attacks",
+        "topics": [
+          "SOCKS Proxying, SSH Tunneling & Chisel Port Forwarding",
+          "Double & Triple Pivoting Across Restricted Internal Subnets",
+          "Protocol-Specific Exploitation & Traffic Interception",
+          "Lateral Movement Without Triggering SOC Alerts"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "Hardening, Remediation & Executive Pentest Reporting",
+        "topics": [
+          "Prioritized Risk Remediation & Defensive Countermeasures",
+          "CVSS v3.1 Scoring & Step-by-Step PoC Documentation",
+          "Executive Summary vs. Technical Remediation Appendix",
+          "PPSE Final Practical Lab Exam Preparation"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "PPSE Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "PowerShell Remoting, WMI & CIM Exploitation",
+          "AMSI, Constrained Language Mode & Script Logging",
+          "Active Directory Enumeration & Automation",
+          "Official PPSE Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official PPSE Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ames",
+    "code": "AMES",
+    "title": "Advanced Metasploit for Enterprise Security",
+    "subtitle": "CUSTOM MODULES, EVASION & PIVOTING",
+    "badge": "OFFENSIVE INFRA",
+    "category": "offensive-infra",
+    "price": "$159",
+    "duration": "30 Hours",
+    "level": "Intermediate",
+    "mode": "Live Labs & 24/7 Cloud Range",
+    "summary": "This training focuses on improving your enterprise pentesting skills using Metasploit.",
+    "description": "Go far beyond basic exploit execution: write custom Ruby Metasploit modules, configure Meterpreter pivoting/autoroute, bypass endpoint controls, and automate post-exploitation.",
+    "highlights": [
+      "Custom Metasploit Exploit & Auxiliary Modules",
+      "Meterpreter Port Forwarding & Multi-Hop Pivoting",
+      "Post-Exploitation Loot & Credential Harvesting",
+      "Official AMES Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Will I learn how to write custom modules?",
+        "a": "Yes, you will build and test custom auxiliary and exploit modules in Ruby."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "AMES Enterprise Reconnaissance & Enumeration",
+        "topics": [
+          "Core Foundations & Methodology for Advanced Metasploit for Enterprise Security",
+          "Active & Passive Network Discovery, Service & Banner Fingerprinting",
+          "Protocol-Level Enumeration (SMB, LDAP, Kerberos, SNMP, DNS)",
+          "Identifying Misconfigurations & Exposed Enterprise Attack Surfaces"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Vulnerability Validation & Exploitation Tradecraft",
+        "topics": [
+          "Manual Vulnerability Verification & False-Positive Elimination",
+          "Public Exploit Customization, Compilation & Payload Delivery",
+          "Bypassing Endpoint Controls & Network Segmentation",
+          "Post-Exploitation Situational Awareness & Credential Harvesting"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Windows & Linux Privilege Escalation",
+        "topics": [
+          "Linux SUID/SGID, Capabilities, Kernel & Cron Job Escalation",
+          "Windows Service Permissions, Token Impersonation & Unquoted Paths",
+          "Registry, Scheduled Tasks & Credential Store Extraction",
+          "Maintaining Operational Stability During Target Assessment"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Active Directory & Enterprise Lateral Movement",
+        "topics": [
+          "Active Directory Enumeration with BloodHound & PowerView",
+          "Kerberoasting, AS-REP Roasting & Delegation Abuse",
+          "Pass-the-Hash, Pass-the-Ticket & Overpass-the-Hash Attacks",
+          "Domain Dominance, DCSync & Persistence Mechanisms"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Multi-Hop Pivoting, Tunneling & Protocol Attacks",
+        "topics": [
+          "SOCKS Proxying, SSH Tunneling & Chisel Port Forwarding",
+          "Double & Triple Pivoting Across Restricted Internal Subnets",
+          "Protocol-Specific Exploitation & Traffic Interception",
+          "Lateral Movement Without Triggering SOC Alerts"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "Hardening, Remediation & Executive Pentest Reporting",
+        "topics": [
+          "Prioritized Risk Remediation & Defensive Countermeasures",
+          "CVSS v3.1 Scoring & Step-by-Step PoC Documentation",
+          "Executive Summary vs. Technical Remediation Appendix",
+          "AMES Final Practical Lab Exam Preparation"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "AMES Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Custom Metasploit Exploit & Auxiliary Modules",
+          "Meterpreter Port Forwarding & Multi-Hop Pivoting",
+          "Post-Exploitation Loot & Credential Harvesting",
+          "Official AMES Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official AMES Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "psa",
+    "code": "PSA",
+    "title": "Professional SOC Analyst",
+    "subtitle": "SIEM MONITORING, TRIAGE & INCIDENT RESPONSE",
+    "badge": "SOC & DEFENSE",
+    "category": "soc-defense",
+    "price": "$179",
+    "duration": "45 Hours",
+    "level": "Beginner to Intermediate",
+    "mode": "Live SOC Cyber Range",
+    "summary": "Master SOC analyst skills with industry-aligned training. Learn to detect threats, prevent attacks, and gain in-demand certifications.",
+    "description": "Step into Tier 1 & Tier 2 SOC operations. Master SIEM log correlation, alert triage, phishing investigation, endpoint telemetry analysis, and incident containment workflows.",
+    "highlights": [
+      "Live SOC Alert Triage & False-Positive Tuning",
+      "Windows, Linux, Firewall & Proxy Log Analysis",
+      "MITRE ATT&CK Attack Chain Investigation",
+      "Official PSA Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Is PSA suitable for professionals transitioning into SOC roles?",
+        "a": "Yes, it covers end-to-end Tier 1/Tier 2 SOC workflows from foundational log triage to full incident escalation."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "PSA SOC Architecture & Log Ingestion Pipelines",
+        "topics": [
+          "Security Operations Fundamentals for Professional SOC Analyst",
+          "Log Collection, Parsing, Normalization & Event Schemas",
+          "Telemetry Sources: Windows Event Logs, Sysmon, Linux Auditd & Firewalls",
+          "Data Connector Configuration & Health Monitoring"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Advanced Querying, Correlation & Alert Triage",
+        "topics": [
+          "Writing High-Speed Search Queries, Joins & Aggregations",
+          "Alert Triage Workflows & False-Positive Elimination",
+          "Detecting Brute-Force, Credential Dumping & Lateral Movement",
+          "Building Real-Time SOC Monitoring Dashboards"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "MITRE ATT&CK Mapping & Use-Case Engineering",
+        "topics": [
+          "Mapping Adversary Tactics, Techniques & Procedures (TTPs)",
+          "Designing Custom Correlation & Anomaly Detection Rules",
+          "Threshold Tuning, Whitelisting & Alert Enrichment",
+          "Validating Detection Coverage Against Simulated Attacks"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Endpoint, Network & Cloud Threat Investigation",
+        "topics": [
+          "Process Tree Forensics & Living-off-the-Land (LOLBin) Detection",
+          "Suspicious PowerShell, WMI & Scheduled Task Analysis",
+          "Phishing Email Header Analysis & Malicious Payload Triage",
+          "Cloud Identity & API Anomaly Investigation"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Incident Containment, SOAR & Automated Response",
+        "topics": [
+          "Host Isolation, Account Suspension & IOC Blocking Workflows",
+          "Building Automated SOAR Playbooks for Rapid Containment",
+          "Evidence Preservation & Chain-of-Custody Documentation",
+          "Escalation Matrix & Post-Incident Lessons Learned"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "Real-World SOC Attack Case Studies & Certification Lab",
+        "topics": [
+          "End-to-End Ransomware & Intrusion Investigation Walkthrough",
+          "Tune & Harden Enterprise Detection Rulesets",
+          "Incident Report Writing for Leadership & Compliance",
+          "PSA Practical Certification Lab Readiness"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "PSA Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Live SOC Alert Triage & False-Positive Tuning",
+          "Windows, Linux, Firewall & Proxy Log Analysis",
+          "MITRE ATT&CK Attack Chain Investigation",
+          "Official PSA Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official PSA Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sea",
+    "code": "SEA",
+    "title": "Splunk Enterprise Analyst",
+    "subtitle": "SPL QUERIES, DASHBOARDS & SIEM USE CASES",
+    "badge": "SIEM ENGINEERING",
+    "category": "soc-defense",
+    "price": "$179",
+    "duration": "35 Hours",
+    "level": "Intermediate",
+    "mode": "Dedicated Splunk Enterprise Lab",
+    "summary": "Splunk training includes case studies of real-world projects, siem test cases and attack vectors.",
+    "description": "Master Splunk Search Processing Language (SPL), correlation searches, field extractions, threat hunting dashboards, and real-world attack detection use cases.",
+    "highlights": [
+      "Advanced SPL Query Writing & Subsearches",
+      "Correlation Alerts & Security Dashboards",
+      "Real-World Attack Log Investigation Case Studies",
+      "Official SEA Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Do we get hands-on access to Splunk Enterprise?",
+        "a": "Yes, every student works inside a live Splunk Enterprise instance loaded with attack datasets."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "SEA SOC Architecture & Log Ingestion Pipelines",
+        "topics": [
+          "Security Operations Fundamentals for Splunk Enterprise Analyst",
+          "Log Collection, Parsing, Normalization & Event Schemas",
+          "Telemetry Sources: Windows Event Logs, Sysmon, Linux Auditd & Firewalls",
+          "Data Connector Configuration & Health Monitoring"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Advanced Querying, Correlation & Alert Triage",
+        "topics": [
+          "Writing High-Speed Search Queries, Joins & Aggregations",
+          "Alert Triage Workflows & False-Positive Elimination",
+          "Detecting Brute-Force, Credential Dumping & Lateral Movement",
+          "Building Real-Time SOC Monitoring Dashboards"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "MITRE ATT&CK Mapping & Use-Case Engineering",
+        "topics": [
+          "Mapping Adversary Tactics, Techniques & Procedures (TTPs)",
+          "Designing Custom Correlation & Anomaly Detection Rules",
+          "Threshold Tuning, Whitelisting & Alert Enrichment",
+          "Validating Detection Coverage Against Simulated Attacks"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Endpoint, Network & Cloud Threat Investigation",
+        "topics": [
+          "Process Tree Forensics & Living-off-the-Land (LOLBin) Detection",
+          "Suspicious PowerShell, WMI & Scheduled Task Analysis",
+          "Phishing Email Header Analysis & Malicious Payload Triage",
+          "Cloud Identity & API Anomaly Investigation"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Incident Containment, SOAR & Automated Response",
+        "topics": [
+          "Host Isolation, Account Suspension & IOC Blocking Workflows",
+          "Building Automated SOAR Playbooks for Rapid Containment",
+          "Evidence Preservation & Chain-of-Custody Documentation",
+          "Escalation Matrix & Post-Incident Lessons Learned"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "Real-World SOC Attack Case Studies & Certification Lab",
+        "topics": [
+          "End-to-End Ransomware & Intrusion Investigation Walkthrough",
+          "Tune & Harden Enterprise Detection Rulesets",
+          "Incident Report Writing for Leadership & Compliance",
+          "SEA Practical Certification Lab Readiness"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "SEA Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Advanced SPL Query Writing & Subsearches",
+          "Correlation Alerts & Security Dashboards",
+          "Real-World Attack Log Investigation Case Studies",
+          "Official SEA Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official SEA Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "qsoc",
+    "code": "QSOC",
+    "title": "QRadar Security Operations Center Analyst",
+    "subtitle": "IBM QRADAR OFFENSE INVESTIGATION & AQL",
+    "badge": "SIEM OPERATIONS",
+    "category": "soc-defense",
+    "price": "$179",
+    "duration": "35 Hours",
+    "level": "Intermediate",
+    "mode": "Live IBM QRadar Lab",
+    "summary": "QRadar training include investigation of offence, advance log analysis and investigate suspicious activities.",
+    "description": "Investigate IBM QRadar offenses, write Ariel Query Language (AQL) searches, analyze flow and event correlations, and trace multi-stage intrusions.",
+    "highlights": [
+      "QRadar Offense Triage & Root-Cause Investigation",
+      "Ariel Query Language (AQL) Advanced Filtering",
+      "Network Flow & Event Payload Correlation",
+      "Official QSOC Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "What is the difference between QSOC and AQAI?",
+        "a": "QSOC focuses on SOC analyst offense investigation and log analysis, while AQAI covers QRadar administration, custom DSMs, and rule engineering."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "QSOC SOC Architecture & Log Ingestion Pipelines",
+        "topics": [
+          "Security Operations Fundamentals for QRadar Security Operations Center Analyst",
+          "Log Collection, Parsing, Normalization & Event Schemas",
+          "Telemetry Sources: Windows Event Logs, Sysmon, Linux Auditd & Firewalls",
+          "Data Connector Configuration & Health Monitoring"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Advanced Querying, Correlation & Alert Triage",
+        "topics": [
+          "Writing High-Speed Search Queries, Joins & Aggregations",
+          "Alert Triage Workflows & False-Positive Elimination",
+          "Detecting Brute-Force, Credential Dumping & Lateral Movement",
+          "Building Real-Time SOC Monitoring Dashboards"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "MITRE ATT&CK Mapping & Use-Case Engineering",
+        "topics": [
+          "Mapping Adversary Tactics, Techniques & Procedures (TTPs)",
+          "Designing Custom Correlation & Anomaly Detection Rules",
+          "Threshold Tuning, Whitelisting & Alert Enrichment",
+          "Validating Detection Coverage Against Simulated Attacks"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Endpoint, Network & Cloud Threat Investigation",
+        "topics": [
+          "Process Tree Forensics & Living-off-the-Land (LOLBin) Detection",
+          "Suspicious PowerShell, WMI & Scheduled Task Analysis",
+          "Phishing Email Header Analysis & Malicious Payload Triage",
+          "Cloud Identity & API Anomaly Investigation"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Incident Containment, SOAR & Automated Response",
+        "topics": [
+          "Host Isolation, Account Suspension & IOC Blocking Workflows",
+          "Building Automated SOAR Playbooks for Rapid Containment",
+          "Evidence Preservation & Chain-of-Custody Documentation",
+          "Escalation Matrix & Post-Incident Lessons Learned"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "Real-World SOC Attack Case Studies & Certification Lab",
+        "topics": [
+          "End-to-End Ransomware & Intrusion Investigation Walkthrough",
+          "Tune & Harden Enterprise Detection Rulesets",
+          "Incident Report Writing for Leadership & Compliance",
+          "QSOC Practical Certification Lab Readiness"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "QSOC Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "QRadar Offense Triage & Root-Cause Investigation",
+          "Ariel Query Language (AQL) Advanced Filtering",
+          "Network Flow & Event Payload Correlation",
+          "Official QSOC Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official QSOC Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aqai",
+    "code": "AQAI",
+    "title": "Advanced QRadar Administrators and Implementer",
+    "subtitle": "CUSTOM DSM, CRE RULES & DEPLOYMENT",
+    "badge": "SIEM ARCHITECTURE",
+    "category": "soc-defense",
+    "price": "$199",
+    "duration": "40 Hours",
+    "level": "Advanced",
+    "mode": "Live IBM QRadar Admin Lab",
+    "summary": "Learn QRadar Implementation, Use-Case Creation, custom DSM, IBM App exchange usage, and common real-world troubleshooting.",
+    "description": "Deploy, configure, and administer IBM QRadar SIEM. Build custom DSM parsers, tune Custom Rule Engine (CRE) logic, integrate IBM App Exchange extensions, and troubleshoot log sources.",
+    "highlights": [
+      "Custom DSM Log Source Parser Creation",
+      "CRE Rule Engineering & Building Blocks",
+      "QRadar Architecture, WinCollect & Troubleshooting",
+      "Official AQAI Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Will we build custom DSMs in the lab?",
+        "a": "Yes, creating and testing custom DSM parsers for non-standard logs is a core lab module."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "AQAI SOC Architecture & Log Ingestion Pipelines",
+        "topics": [
+          "Security Operations Fundamentals for Advanced QRadar Administrators and Implementer",
+          "Log Collection, Parsing, Normalization & Event Schemas",
+          "Telemetry Sources: Windows Event Logs, Sysmon, Linux Auditd & Firewalls",
+          "Data Connector Configuration & Health Monitoring"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Advanced Querying, Correlation & Alert Triage",
+        "topics": [
+          "Writing High-Speed Search Queries, Joins & Aggregations",
+          "Alert Triage Workflows & False-Positive Elimination",
+          "Detecting Brute-Force, Credential Dumping & Lateral Movement",
+          "Building Real-Time SOC Monitoring Dashboards"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "MITRE ATT&CK Mapping & Use-Case Engineering",
+        "topics": [
+          "Mapping Adversary Tactics, Techniques & Procedures (TTPs)",
+          "Designing Custom Correlation & Anomaly Detection Rules",
+          "Threshold Tuning, Whitelisting & Alert Enrichment",
+          "Validating Detection Coverage Against Simulated Attacks"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Endpoint, Network & Cloud Threat Investigation",
+        "topics": [
+          "Process Tree Forensics & Living-off-the-Land (LOLBin) Detection",
+          "Suspicious PowerShell, WMI & Scheduled Task Analysis",
+          "Phishing Email Header Analysis & Malicious Payload Triage",
+          "Cloud Identity & API Anomaly Investigation"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Incident Containment, SOAR & Automated Response",
+        "topics": [
+          "Host Isolation, Account Suspension & IOC Blocking Workflows",
+          "Building Automated SOAR Playbooks for Rapid Containment",
+          "Evidence Preservation & Chain-of-Custody Documentation",
+          "Escalation Matrix & Post-Incident Lessons Learned"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "Real-World SOC Attack Case Studies & Certification Lab",
+        "topics": [
+          "End-to-End Ransomware & Intrusion Investigation Walkthrough",
+          "Tune & Harden Enterprise Detection Rulesets",
+          "Incident Report Writing for Leadership & Compliance",
+          "AQAI Practical Certification Lab Readiness"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "AQAI Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Custom DSM Log Source Parser Creation",
+          "CRE Rule Engineering & Building Blocks",
+          "QRadar Architecture, WinCollect & Troubleshooting",
+          "Official AQAI Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official AQAI Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aasd",
+    "code": "AASD",
+    "title": "Advanced Azure Sentinel Defender",
+    "subtitle": "MICROSOFT SENTINEL KQL & SOAR PLAYBOOKS",
+    "badge": "CLOUD SIEM",
+    "category": "soc-defense",
+    "price": "$179",
+    "duration": "35 Hours",
+    "level": "Intermediate to Advanced",
+    "mode": "Live Microsoft Sentinel Lab",
+    "summary": "Learn how to effectively perform security operations like collection, detection, response, investigation, and creating use cases on Azure Sentinel cloud-native solution.",
+    "description": "Master Microsoft Sentinel cloud-native SIEM/SOAR operations: ingest data connectors, write Kusto Query Language (KQL) analytics rules, and automate incident response via Logic Apps.",
+    "highlights": [
+      "Kusto Query Language (KQL) Threat Hunting",
+      "Scheduled Analytics Rules & Entity Mapping",
+      "Automated SOAR Playbooks with Azure Logic Apps",
+      "Official AASD Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Does AASD cover KQL from scratch?",
+        "a": "Yes, we cover KQL operators, joins, and threat hunting queries progressively."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "AASD SOC Architecture & Log Ingestion Pipelines",
+        "topics": [
+          "Security Operations Fundamentals for Advanced Azure Sentinel Defender",
+          "Log Collection, Parsing, Normalization & Event Schemas",
+          "Telemetry Sources: Windows Event Logs, Sysmon, Linux Auditd & Firewalls",
+          "Data Connector Configuration & Health Monitoring"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Advanced Querying, Correlation & Alert Triage",
+        "topics": [
+          "Writing High-Speed Search Queries, Joins & Aggregations",
+          "Alert Triage Workflows & False-Positive Elimination",
+          "Detecting Brute-Force, Credential Dumping & Lateral Movement",
+          "Building Real-Time SOC Monitoring Dashboards"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "MITRE ATT&CK Mapping & Use-Case Engineering",
+        "topics": [
+          "Mapping Adversary Tactics, Techniques & Procedures (TTPs)",
+          "Designing Custom Correlation & Anomaly Detection Rules",
+          "Threshold Tuning, Whitelisting & Alert Enrichment",
+          "Validating Detection Coverage Against Simulated Attacks"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Endpoint, Network & Cloud Threat Investigation",
+        "topics": [
+          "Process Tree Forensics & Living-off-the-Land (LOLBin) Detection",
+          "Suspicious PowerShell, WMI & Scheduled Task Analysis",
+          "Phishing Email Header Analysis & Malicious Payload Triage",
+          "Cloud Identity & API Anomaly Investigation"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Incident Containment, SOAR & Automated Response",
+        "topics": [
+          "Host Isolation, Account Suspension & IOC Blocking Workflows",
+          "Building Automated SOAR Playbooks for Rapid Containment",
+          "Evidence Preservation & Chain-of-Custody Documentation",
+          "Escalation Matrix & Post-Incident Lessons Learned"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "Real-World SOC Attack Case Studies & Certification Lab",
+        "topics": [
+          "End-to-End Ransomware & Intrusion Investigation Walkthrough",
+          "Tune & Harden Enterprise Detection Rulesets",
+          "Incident Report Writing for Leadership & Compliance",
+          "AASD Practical Certification Lab Readiness"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "AASD Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Kusto Query Language (KQL) Threat Hunting",
+          "Scheduled Analytics Rules & Entity Mapping",
+          "Automated SOAR Playbooks with Azure Logic Apps",
+          "Official AASD Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official AASD Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "awai",
+    "code": "AWAI",
+    "title": "Advanced Wazuh Analyst and Implementer",
+    "subtitle": "OPEN-SOURCE SIEM, XDR & FIM DEPLOYMENT",
+    "badge": "SIEM & XDR",
+    "category": "soc-defense",
+    "price": "$179",
+    "duration": "35 Hours",
+    "level": "Intermediate",
+    "mode": "Live Wazuh Cluster Lab",
+    "summary": "Master advanced security monitoring with Wazuh. Learn log analysis, threat detection, SIEM integration, incident response & real-world implementation skills for modern cybersecurity environments.",
+    "description": "Deploy and manage Wazuh SIEM/XDR at scale. Author custom XML decoders and detection rules, configure File Integrity Monitoring (FIM), Active Response, and vulnerability detection.",
+    "highlights": [
+      "Custom Wazuh Decoders & Detection Rules",
+      "File Integrity Monitoring (FIM) & Active Response",
+      "Agent Deployment & Centralized Configuration",
+      "Official AWAI Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Will we write custom decoders and rules in Wazuh?",
+        "a": "Yes, hands-on decoder and rule authoring is covered extensively."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "AWAI SOC Architecture & Log Ingestion Pipelines",
+        "topics": [
+          "Security Operations Fundamentals for Advanced Wazuh Analyst and Implementer",
+          "Log Collection, Parsing, Normalization & Event Schemas",
+          "Telemetry Sources: Windows Event Logs, Sysmon, Linux Auditd & Firewalls",
+          "Data Connector Configuration & Health Monitoring"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Advanced Querying, Correlation & Alert Triage",
+        "topics": [
+          "Writing High-Speed Search Queries, Joins & Aggregations",
+          "Alert Triage Workflows & False-Positive Elimination",
+          "Detecting Brute-Force, Credential Dumping & Lateral Movement",
+          "Building Real-Time SOC Monitoring Dashboards"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "MITRE ATT&CK Mapping & Use-Case Engineering",
+        "topics": [
+          "Mapping Adversary Tactics, Techniques & Procedures (TTPs)",
+          "Designing Custom Correlation & Anomaly Detection Rules",
+          "Threshold Tuning, Whitelisting & Alert Enrichment",
+          "Validating Detection Coverage Against Simulated Attacks"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Endpoint, Network & Cloud Threat Investigation",
+        "topics": [
+          "Process Tree Forensics & Living-off-the-Land (LOLBin) Detection",
+          "Suspicious PowerShell, WMI & Scheduled Task Analysis",
+          "Phishing Email Header Analysis & Malicious Payload Triage",
+          "Cloud Identity & API Anomaly Investigation"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Incident Containment, SOAR & Automated Response",
+        "topics": [
+          "Host Isolation, Account Suspension & IOC Blocking Workflows",
+          "Building Automated SOAR Playbooks for Rapid Containment",
+          "Evidence Preservation & Chain-of-Custody Documentation",
+          "Escalation Matrix & Post-Incident Lessons Learned"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "Real-World SOC Attack Case Studies & Certification Lab",
+        "topics": [
+          "End-to-End Ransomware & Intrusion Investigation Walkthrough",
+          "Tune & Harden Enterprise Detection Rulesets",
+          "Incident Report Writing for Leadership & Compliance",
+          "AWAI Practical Certification Lab Readiness"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "AWAI Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Custom Wazuh Decoders & Detection Rules",
+          "File Integrity Monitoring (FIM) & Active Response",
+          "Agent Deployment & Centralized Configuration",
+          "Official AWAI Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official AWAI Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aexa",
+    "code": "AEXA",
+    "title": "Advanced EDR/XDR Analyst",
+    "subtitle": "ENDPOINT TELEMETRY, HUNTING & CONTAINMENT",
+    "badge": "EDR / XDR",
+    "category": "soc-defense",
+    "price": "$179",
+    "duration": "35 Hours",
+    "level": "Intermediate to Advanced",
+    "mode": "Live Endpoint Detection Lab",
+    "summary": "Master advanced EDR/XDR techniques for threat detection, investigation, and response. Learn endpoint visibility, threat hunting, automation and real-world SOC operations.",
+    "description": "Analyze process creation trees, DLL injections, credential dumping telemetry, and persistence artifacts across enterprise EDR/XDR platforms to isolate compromised endpoints fast.",
+    "highlights": [
+      "Process Tree & Endpoint Telemetry Forensics",
+      "Memory Injection & Credential Theft Detection",
+      "Host Isolation, Live Response & Remediation",
+      "Official AEXA Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "What attacks are simulated in the EDR/XDR lab?",
+        "a": "Process hollowing, LSASS dumping, lateral movement, and living-off-the-land binaries (LOLBins)."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "AEXA SOC Architecture & Log Ingestion Pipelines",
+        "topics": [
+          "Security Operations Fundamentals for Advanced EDR/XDR Analyst",
+          "Log Collection, Parsing, Normalization & Event Schemas",
+          "Telemetry Sources: Windows Event Logs, Sysmon, Linux Auditd & Firewalls",
+          "Data Connector Configuration & Health Monitoring"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Advanced Querying, Correlation & Alert Triage",
+        "topics": [
+          "Writing High-Speed Search Queries, Joins & Aggregations",
+          "Alert Triage Workflows & False-Positive Elimination",
+          "Detecting Brute-Force, Credential Dumping & Lateral Movement",
+          "Building Real-Time SOC Monitoring Dashboards"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "MITRE ATT&CK Mapping & Use-Case Engineering",
+        "topics": [
+          "Mapping Adversary Tactics, Techniques & Procedures (TTPs)",
+          "Designing Custom Correlation & Anomaly Detection Rules",
+          "Threshold Tuning, Whitelisting & Alert Enrichment",
+          "Validating Detection Coverage Against Simulated Attacks"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Endpoint, Network & Cloud Threat Investigation",
+        "topics": [
+          "Process Tree Forensics & Living-off-the-Land (LOLBin) Detection",
+          "Suspicious PowerShell, WMI & Scheduled Task Analysis",
+          "Phishing Email Header Analysis & Malicious Payload Triage",
+          "Cloud Identity & API Anomaly Investigation"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Incident Containment, SOAR & Automated Response",
+        "topics": [
+          "Host Isolation, Account Suspension & IOC Blocking Workflows",
+          "Building Automated SOAR Playbooks for Rapid Containment",
+          "Evidence Preservation & Chain-of-Custody Documentation",
+          "Escalation Matrix & Post-Incident Lessons Learned"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "Real-World SOC Attack Case Studies & Certification Lab",
+        "topics": [
+          "End-to-End Ransomware & Intrusion Investigation Walkthrough",
+          "Tune & Harden Enterprise Detection Rulesets",
+          "Incident Report Writing for Leadership & Compliance",
+          "AEXA Practical Certification Lab Readiness"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "AEXA Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Process Tree & Endpoint Telemetry Forensics",
+          "Memory Injection & Credential Theft Detection",
+          "Host Isolation, Live Response & Remediation",
+          "Official AEXA Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official AEXA Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mdxa",
+    "code": "MDXA",
+    "title": "Microsoft Defender XDR Analyst",
+    "subtitle": "DEFENDER FOR ENDPOINT, IDENTITY & OFFICE 365",
+    "badge": "MICROSOFT XDR",
+    "category": "soc-defense",
+    "price": "$179",
+    "duration": "35 Hours",
+    "level": "Intermediate to Advanced",
+    "mode": "Live Microsoft Defender XDR Lab",
+    "summary": "Gain expertise in Microsoft Defender XDR for threat detection, investigation, and response. Learn advanced hunting, incident analysis, automation and real-world SOC workflows.",
+    "description": "Unify endpoint, identity, email, and cloud app defense using Microsoft Defender XDR. Execute Advanced Hunting with KQL, investigate automated attack disruption, and contain BEC/ransomware.",
+    "highlights": [
+      "Defender XDR Advanced Hunting with KQL",
+      "Defender for Endpoint & Identity Correlation",
+      "Automated Investigation & Response (AIR) Tuning",
+      "Official MDXA Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Does MDXA cover Defender for Identity and Office 365?",
+        "a": "Yes, cross-domain incident correlation across endpoints, identities, and email is central to the course."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "MDXA SOC Architecture & Log Ingestion Pipelines",
+        "topics": [
+          "Security Operations Fundamentals for Microsoft Defender XDR Analyst",
+          "Log Collection, Parsing, Normalization & Event Schemas",
+          "Telemetry Sources: Windows Event Logs, Sysmon, Linux Auditd & Firewalls",
+          "Data Connector Configuration & Health Monitoring"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Advanced Querying, Correlation & Alert Triage",
+        "topics": [
+          "Writing High-Speed Search Queries, Joins & Aggregations",
+          "Alert Triage Workflows & False-Positive Elimination",
+          "Detecting Brute-Force, Credential Dumping & Lateral Movement",
+          "Building Real-Time SOC Monitoring Dashboards"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "MITRE ATT&CK Mapping & Use-Case Engineering",
+        "topics": [
+          "Mapping Adversary Tactics, Techniques & Procedures (TTPs)",
+          "Designing Custom Correlation & Anomaly Detection Rules",
+          "Threshold Tuning, Whitelisting & Alert Enrichment",
+          "Validating Detection Coverage Against Simulated Attacks"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Endpoint, Network & Cloud Threat Investigation",
+        "topics": [
+          "Process Tree Forensics & Living-off-the-Land (LOLBin) Detection",
+          "Suspicious PowerShell, WMI & Scheduled Task Analysis",
+          "Phishing Email Header Analysis & Malicious Payload Triage",
+          "Cloud Identity & API Anomaly Investigation"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Incident Containment, SOAR & Automated Response",
+        "topics": [
+          "Host Isolation, Account Suspension & IOC Blocking Workflows",
+          "Building Automated SOAR Playbooks for Rapid Containment",
+          "Evidence Preservation & Chain-of-Custody Documentation",
+          "Escalation Matrix & Post-Incident Lessons Learned"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "Real-World SOC Attack Case Studies & Certification Lab",
+        "topics": [
+          "End-to-End Ransomware & Intrusion Investigation Walkthrough",
+          "Tune & Harden Enterprise Detection Rulesets",
+          "Incident Report Writing for Leadership & Compliance",
+          "MDXA Practical Certification Lab Readiness"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "MDXA Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Defender XDR Advanced Hunting with KQL",
+          "Defender for Endpoint & Identity Correlation",
+          "Automated Investigation & Response (AIR) Tuning",
+          "Official MDXA Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official MDXA Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wfsa",
+    "code": "WFSA",
+    "title": "Web Application Firewall Security Analyst",
+    "subtitle": "WAF DEPLOYMENT, RULE TUNING & OWASP DEFENSE",
+    "badge": "APPSEC DEFENSE",
+    "category": "soc-defense",
+    "price": "$159",
+    "duration": "30 Hours",
+    "level": "Intermediate",
+    "mode": "Live ModSecurity & Cloud WAF Lab",
+    "summary": "Master Web Application Firewall (WAF) security. Learn traffic filtering, attack detection, rule tuning, OWASP Top 10 protection and real-world deployment to secure web applications.",
+    "description": "Deploy, tune, and manage enterprise WAFs (ModSecurity, AWS WAF, Cloudflare). Eliminate false positives, write custom SecRules, mitigate DDoS/bot traffic, and block OWASP Top 10 exploits.",
+    "highlights": [
+      "OWASP Core Rule Set (CRS) Tuning & Anomaly Scoring",
+      "Custom SecRule Writing & Virtual Patching",
+      "Bot Mitigation & Rate-Limiting Architecture",
+      "Official WFSA Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Will we practice virtual patching against live exploits?",
+        "a": "Yes, you will write custom WAF rules to block active SQLi, XSS, and RCE payloads without breaking legitimate traffic."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "WFSA SOC Architecture & Log Ingestion Pipelines",
+        "topics": [
+          "Security Operations Fundamentals for Web Application Firewall Security Analyst",
+          "Log Collection, Parsing, Normalization & Event Schemas",
+          "Telemetry Sources: Windows Event Logs, Sysmon, Linux Auditd & Firewalls",
+          "Data Connector Configuration & Health Monitoring"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Advanced Querying, Correlation & Alert Triage",
+        "topics": [
+          "Writing High-Speed Search Queries, Joins & Aggregations",
+          "Alert Triage Workflows & False-Positive Elimination",
+          "Detecting Brute-Force, Credential Dumping & Lateral Movement",
+          "Building Real-Time SOC Monitoring Dashboards"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "MITRE ATT&CK Mapping & Use-Case Engineering",
+        "topics": [
+          "Mapping Adversary Tactics, Techniques & Procedures (TTPs)",
+          "Designing Custom Correlation & Anomaly Detection Rules",
+          "Threshold Tuning, Whitelisting & Alert Enrichment",
+          "Validating Detection Coverage Against Simulated Attacks"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Endpoint, Network & Cloud Threat Investigation",
+        "topics": [
+          "Process Tree Forensics & Living-off-the-Land (LOLBin) Detection",
+          "Suspicious PowerShell, WMI & Scheduled Task Analysis",
+          "Phishing Email Header Analysis & Malicious Payload Triage",
+          "Cloud Identity & API Anomaly Investigation"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Incident Containment, SOAR & Automated Response",
+        "topics": [
+          "Host Isolation, Account Suspension & IOC Blocking Workflows",
+          "Building Automated SOAR Playbooks for Rapid Containment",
+          "Evidence Preservation & Chain-of-Custody Documentation",
+          "Escalation Matrix & Post-Incident Lessons Learned"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "Real-World SOC Attack Case Studies & Certification Lab",
+        "topics": [
+          "End-to-End Ransomware & Intrusion Investigation Walkthrough",
+          "Tune & Harden Enterprise Detection Rulesets",
+          "Incident Report Writing for Leadership & Compliance",
+          "WFSA Practical Certification Lab Readiness"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "WFSA Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "OWASP Core Rule Set (CRS) Tuning & Anomaly Scoring",
+          "Custom SecRule Writing & Virtual Patching",
+          "Bot Mitigation & Rate-Limiting Architecture",
+          "Official WFSA Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official WFSA Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "amad",
+    "code": "AMAD",
+    "title": "Advanced MITRE ATT&CK Defender",
+    "subtitle": "THREAT-INFORMED DEFENSE & COVERAGE MAPPING",
+    "badge": "THREAT DEFENSE",
+    "category": "soc-defense",
+    "price": "$179",
+    "duration": "30 Hours",
+    "level": "Intermediate",
+    "mode": "Live ATT&CK Navigator & Lab Range",
+    "summary": "Expose secrets, misconfigurations, and eliminate data breaches before they happen. Automate Compliance With Mitre Att&Ck Framework.",
+    "description": "Operationalize the MITRE ATT&CK matrix across your SOC. Map adversary TTPs, measure detection engineering coverage, run atomic adversary emulations, and close defensive blind spots.",
+    "highlights": [
+      "MITRE ATT&CK Navigator Coverage Heatmaps",
+      "Adversary Emulation & Detection Validation",
+      "TTP-Driven SOC Use-Case Prioritization",
+      "Official AMAD Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "How does AMAD help SOC teams?",
+        "a": "It shifts teams from reactive alert chasing to measurable, threat-informed defense mapped to real APT groups."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "AMAD SOC Architecture & Log Ingestion Pipelines",
+        "topics": [
+          "Security Operations Fundamentals for Advanced MITRE ATT&CK Defender",
+          "Log Collection, Parsing, Normalization & Event Schemas",
+          "Telemetry Sources: Windows Event Logs, Sysmon, Linux Auditd & Firewalls",
+          "Data Connector Configuration & Health Monitoring"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Advanced Querying, Correlation & Alert Triage",
+        "topics": [
+          "Writing High-Speed Search Queries, Joins & Aggregations",
+          "Alert Triage Workflows & False-Positive Elimination",
+          "Detecting Brute-Force, Credential Dumping & Lateral Movement",
+          "Building Real-Time SOC Monitoring Dashboards"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "MITRE ATT&CK Mapping & Use-Case Engineering",
+        "topics": [
+          "Mapping Adversary Tactics, Techniques & Procedures (TTPs)",
+          "Designing Custom Correlation & Anomaly Detection Rules",
+          "Threshold Tuning, Whitelisting & Alert Enrichment",
+          "Validating Detection Coverage Against Simulated Attacks"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Endpoint, Network & Cloud Threat Investigation",
+        "topics": [
+          "Process Tree Forensics & Living-off-the-Land (LOLBin) Detection",
+          "Suspicious PowerShell, WMI & Scheduled Task Analysis",
+          "Phishing Email Header Analysis & Malicious Payload Triage",
+          "Cloud Identity & API Anomaly Investigation"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Incident Containment, SOAR & Automated Response",
+        "topics": [
+          "Host Isolation, Account Suspension & IOC Blocking Workflows",
+          "Building Automated SOAR Playbooks for Rapid Containment",
+          "Evidence Preservation & Chain-of-Custody Documentation",
+          "Escalation Matrix & Post-Incident Lessons Learned"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "Real-World SOC Attack Case Studies & Certification Lab",
+        "topics": [
+          "End-to-End Ransomware & Intrusion Investigation Walkthrough",
+          "Tune & Harden Enterprise Detection Rulesets",
+          "Incident Report Writing for Leadership & Compliance",
+          "AMAD Practical Certification Lab Readiness"
+        ]
+      },
+      {
+        "number": "Module 07",
+        "title": "AMAD Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "MITRE ATT&CK Navigator Coverage Heatmaps",
+          "Adversary Emulation & Detection Validation",
+          "TTP-Driven SOC Use-Case Prioritization",
+          "Official AMAD Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official AMAD Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "athp",
+    "code": "ATHP",
+    "title": "Advanced Threat Hunting Professional",
+    "subtitle": "HYPOTHESIS-DRIVEN THREAT HUNTING",
+    "badge": "THREAT HUNTING",
+    "category": "threat-hunting",
+    "price": "$179",
+    "duration": "35 Hours",
+    "level": "Intermediate to Advanced",
+    "mode": "Live Cyber Range & Telemetry Labs",
+    "summary": "Advanced Threat Hunting covers you to hunt in a way that will never leave you at a shortage of places to start or techniques to hunt threats.",
+    "description": "Proactively uncover stealthy adversaries evading perimeter controls. Formulate structured hunting hypotheses, analyze baseline anomalies, and detect persistence and lateral movement.",
+    "highlights": [
+      "Hypothesis-Driven & Intel-Driven Hunt Frameworks",
+      "Hunting Persistence, Credential Access & C2",
+      "Endpoint & Network Telemetry Outlier Analysis",
+      "Official ATHP Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "What is the difference between ATHP and ETHP?",
+        "a": "ATHP focuses on hands-on technical hunting techniques, while ETHP scales hunting across enterprise architecture and program maturity."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "ATHP Proactive Defense & Investigation Foundations",
+        "topics": [
+          "Core Concepts & Methodologies for Advanced Threat Hunting Professional",
+          "Hypothesis-Driven & Threat-Intelligence-Driven Workflows",
+          "Baseline Normalcy vs. Anomalous Enterprise Behavior",
+          "Lab Setup, Evidence Acquisition & Tooling Configuration"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Operating System & Persistence Artifact Analysis",
+        "topics": [
+          "Windows Registry, Autoruns, Services & WMI Persistence",
+          "Linux Systemd, Cron, SSH Keys & Rootkit Indicators",
+          "Execution Artifacts: Prefetch, Shimcache, Amcache & BAM",
+          "Tracking User Activity & Lateral Movement Footprints"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Memory, Malware & Network Telemetry Hunting",
+        "topics": [
+          "Detecting Process Injection, Hollowing & Unbacked Memory",
+          "Extracting Indicators of Compromise (IOCs) & C2 Beacons",
+          "DNS Tunneling, HTTP Anomalies & Encrypted Traffic Clues",
+          "Writing Custom Detection Signatures & Hunting Queries"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Intrusion Reconstruction & Root-Cause Analysis",
+        "topics": [
+          "Building Super-Timelines Across Multiple Compromised Hosts",
+          "Identifying Initial Access Vectors & Privilege Escalation Paths",
+          "Assessing Data Staging & Exfiltration Scope",
+          "Containment, Eradication & Recovery Execution"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Automating Detections & Enterprise Hardening",
+        "topics": [
+          "Converting Hunt Findings into Automated SIEM/EDR Rules",
+          "Reducing Attack Surface & Closing Visibility Gaps",
+          "Executive & Technical Incident Reporting Standards",
+          "ATHP Practical Certification Assessment Prep"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "ATHP Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Hypothesis-Driven & Intel-Driven Hunt Frameworks",
+          "Hunting Persistence, Credential Access & C2",
+          "Endpoint & Network Telemetry Outlier Analysis",
+          "Official ATHP Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official ATHP Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ethp",
+    "code": "ETHP",
+    "title": "Enterprise Threat Hunting Professional",
+    "subtitle": "ENTERPRISE-SCALE HUNT PROGRAMS & APT TRACKING",
+    "badge": "THREAT HUNTING",
+    "category": "threat-hunting",
+    "price": "$199",
+    "duration": "40 Hours",
+    "level": "Advanced",
+    "mode": "Live Enterprise Range & Case Studies",
+    "summary": "Learn more about Enterprise Threat Hunting and how organizations can transform their cybersecurity methods from reactive to proactive.",
+    "description": "Build and execute mature enterprise-wide threat hunting campaigns across hybrid cloud and Active Directory environments, converting successful hunts into automated SIEM/EDR detections.",
+    "highlights": [
+      "Enterprise Hunt Maturity & Playbook Design",
+      "Cross-Environment APT Campaign Reconstruction",
+      "Hunt-to-Detection Engineering Pipeline",
+      "Official ETHP Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Is prior SOC experience recommended for ETHP?",
+        "a": "Yes, familiarity with Windows/Linux logs and basic SIEM querying helps you get the maximum value."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "ETHP Proactive Defense & Investigation Foundations",
+        "topics": [
+          "Core Concepts & Methodologies for Enterprise Threat Hunting Professional",
+          "Hypothesis-Driven & Threat-Intelligence-Driven Workflows",
+          "Baseline Normalcy vs. Anomalous Enterprise Behavior",
+          "Lab Setup, Evidence Acquisition & Tooling Configuration"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Operating System & Persistence Artifact Analysis",
+        "topics": [
+          "Windows Registry, Autoruns, Services & WMI Persistence",
+          "Linux Systemd, Cron, SSH Keys & Rootkit Indicators",
+          "Execution Artifacts: Prefetch, Shimcache, Amcache & BAM",
+          "Tracking User Activity & Lateral Movement Footprints"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Memory, Malware & Network Telemetry Hunting",
+        "topics": [
+          "Detecting Process Injection, Hollowing & Unbacked Memory",
+          "Extracting Indicators of Compromise (IOCs) & C2 Beacons",
+          "DNS Tunneling, HTTP Anomalies & Encrypted Traffic Clues",
+          "Writing Custom Detection Signatures & Hunting Queries"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Intrusion Reconstruction & Root-Cause Analysis",
+        "topics": [
+          "Building Super-Timelines Across Multiple Compromised Hosts",
+          "Identifying Initial Access Vectors & Privilege Escalation Paths",
+          "Assessing Data Staging & Exfiltration Scope",
+          "Containment, Eradication & Recovery Execution"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Automating Detections & Enterprise Hardening",
+        "topics": [
+          "Converting Hunt Findings into Automated SIEM/EDR Rules",
+          "Reducing Attack Surface & Closing Visibility Gaps",
+          "Executive & Technical Incident Reporting Standards",
+          "ETHP Practical Certification Assessment Prep"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "ETHP Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Enterprise Hunt Maturity & Playbook Design",
+          "Cross-Environment APT Campaign Reconstruction",
+          "Hunt-to-Detection Engineering Pipeline",
+          "Official ETHP Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official ETHP Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "amhp",
+    "code": "AMHP",
+    "title": "Advanced Malware Hunting Professional",
+    "subtitle": "RANSOMWARE, BOTNET & RAT ANALYSIS",
+    "badge": "MALWARE ANALYSIS",
+    "category": "threat-hunting",
+    "price": "$179",
+    "duration": "35 Hours",
+    "level": "Intermediate to Advanced",
+    "mode": "Isolated Malware Sandbox Lab",
+    "summary": "AMHP training includes advanced practical like analyzing ransomware, botnets, rats and more..",
+    "description": "Safely dissect real-world ransomware, Remote Access Trojans (RATs), loaders, and botnets in isolated sandboxes to extract IOCs, C2 infrastructure, and behavioral signatures.",
+    "highlights": [
+      "Static & Dynamic Malware Sandbox Triage",
+      "Ransomware, Botnet & RAT Behavioral Analysis",
+      "IOC Extraction & Threat Intelligence Enrichment",
+      "Official AMHP Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Are isolated malware analysis VMs provided?",
+        "a": "Yes, all samples are analyzed inside air-gapped cloud analysis machines."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "AMHP Proactive Defense & Investigation Foundations",
+        "topics": [
+          "Core Concepts & Methodologies for Advanced Malware Hunting Professional",
+          "Hypothesis-Driven & Threat-Intelligence-Driven Workflows",
+          "Baseline Normalcy vs. Anomalous Enterprise Behavior",
+          "Lab Setup, Evidence Acquisition & Tooling Configuration"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Operating System & Persistence Artifact Analysis",
+        "topics": [
+          "Windows Registry, Autoruns, Services & WMI Persistence",
+          "Linux Systemd, Cron, SSH Keys & Rootkit Indicators",
+          "Execution Artifacts: Prefetch, Shimcache, Amcache & BAM",
+          "Tracking User Activity & Lateral Movement Footprints"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Memory, Malware & Network Telemetry Hunting",
+        "topics": [
+          "Detecting Process Injection, Hollowing & Unbacked Memory",
+          "Extracting Indicators of Compromise (IOCs) & C2 Beacons",
+          "DNS Tunneling, HTTP Anomalies & Encrypted Traffic Clues",
+          "Writing Custom Detection Signatures & Hunting Queries"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Intrusion Reconstruction & Root-Cause Analysis",
+        "topics": [
+          "Building Super-Timelines Across Multiple Compromised Hosts",
+          "Identifying Initial Access Vectors & Privilege Escalation Paths",
+          "Assessing Data Staging & Exfiltration Scope",
+          "Containment, Eradication & Recovery Execution"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Automating Detections & Enterprise Hardening",
+        "topics": [
+          "Converting Hunt Findings into Automated SIEM/EDR Rules",
+          "Reducing Attack Surface & Closing Visibility Gaps",
+          "Executive & Technical Incident Reporting Standards",
+          "AMHP Practical Certification Assessment Prep"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "AMHP Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Static & Dynamic Malware Sandbox Triage",
+          "Ransomware, Botnet & RAT Behavioral Analysis",
+          "IOC Extraction & Threat Intelligence Enrichment",
+          "Official AMHP Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official AMHP Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adfe",
+    "code": "ADFE",
+    "title": "Advanced Digital Forensics for Enterprise",
+    "subtitle": "WINDOWS, LINUX & MEMORY FORENSICS",
+    "badge": "DIGITAL FORENSICS",
+    "category": "threat-hunting",
+    "price": "$179",
+    "duration": "40 Hours",
+    "level": "Intermediate to Advanced",
+    "mode": "Live Forensic Evidence Labs",
+    "summary": "In-depth digital forensics knowledge of operating systems by analyzing and track detailed user activity and organize findings.",
+    "description": "Conduct forensically sound disk, registry, artifact, and volatile memory investigations across Windows and Linux systems to reconstruct attacker timelines.",
+    "highlights": [
+      "Windows Registry, Prefetch, Amcache & Event Forensics",
+      "Volatile RAM Forensics with Volatility 3",
+      "Super-Timeline Creation & Chain of Custody",
+      "Official ADFE Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Does ADFE include memory forensics?",
+        "a": "Yes, Volatility 3 memory image analysis is a core practical module."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "ADFE Proactive Defense & Investigation Foundations",
+        "topics": [
+          "Core Concepts & Methodologies for Advanced Digital Forensics for Enterprise",
+          "Hypothesis-Driven & Threat-Intelligence-Driven Workflows",
+          "Baseline Normalcy vs. Anomalous Enterprise Behavior",
+          "Lab Setup, Evidence Acquisition & Tooling Configuration"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Operating System & Persistence Artifact Analysis",
+        "topics": [
+          "Windows Registry, Autoruns, Services & WMI Persistence",
+          "Linux Systemd, Cron, SSH Keys & Rootkit Indicators",
+          "Execution Artifacts: Prefetch, Shimcache, Amcache & BAM",
+          "Tracking User Activity & Lateral Movement Footprints"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Memory, Malware & Network Telemetry Hunting",
+        "topics": [
+          "Detecting Process Injection, Hollowing & Unbacked Memory",
+          "Extracting Indicators of Compromise (IOCs) & C2 Beacons",
+          "DNS Tunneling, HTTP Anomalies & Encrypted Traffic Clues",
+          "Writing Custom Detection Signatures & Hunting Queries"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Intrusion Reconstruction & Root-Cause Analysis",
+        "topics": [
+          "Building Super-Timelines Across Multiple Compromised Hosts",
+          "Identifying Initial Access Vectors & Privilege Escalation Paths",
+          "Assessing Data Staging & Exfiltration Scope",
+          "Containment, Eradication & Recovery Execution"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Automating Detections & Enterprise Hardening",
+        "topics": [
+          "Converting Hunt Findings into Automated SIEM/EDR Rules",
+          "Reducing Attack Surface & Closing Visibility Gaps",
+          "Executive & Technical Incident Reporting Standards",
+          "ADFE Practical Certification Assessment Prep"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "ADFE Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Windows Registry, Prefetch, Amcache & Event Forensics",
+          "Volatile RAM Forensics with Volatility 3",
+          "Super-Timeline Creation & Chain of Custody",
+          "Official ADFE Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official ADFE Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pir",
+    "code": "PIR",
+    "title": "Professional Incident Responders",
+    "subtitle": "INTRUSION CONTAINMENT, ERADICATION & RECOVERY",
+    "badge": "INCIDENT RESPONSE",
+    "category": "threat-hunting",
+    "price": "$179",
+    "duration": "35 Hours",
+    "level": "Intermediate",
+    "mode": "Live Breach Simulation Labs",
+    "summary": "We cover intrusion incidents, data theft cases, employee misuse scenarios, or views of the incident.",
+    "description": "Respond rapidly to live enterprise intrusions, data exfiltration incidents, ransomware outbreaks, and insider threats following PICERL containment and recovery standards.",
+    "highlights": [
+      "Live Intrusion Triage, Containment & Eradication",
+      "Data Exfiltration & Insider Threat Investigation",
+      "Root-Cause Analysis & Executive Breach Reporting",
+      "Official PIR Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Are live breach scenarios simulated?",
+        "a": "Yes, you investigate realistic multi-host intrusion scenarios from initial compromise to containment."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "PIR Proactive Defense & Investigation Foundations",
+        "topics": [
+          "Core Concepts & Methodologies for Professional Incident Responders",
+          "Hypothesis-Driven & Threat-Intelligence-Driven Workflows",
+          "Baseline Normalcy vs. Anomalous Enterprise Behavior",
+          "Lab Setup, Evidence Acquisition & Tooling Configuration"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Operating System & Persistence Artifact Analysis",
+        "topics": [
+          "Windows Registry, Autoruns, Services & WMI Persistence",
+          "Linux Systemd, Cron, SSH Keys & Rootkit Indicators",
+          "Execution Artifacts: Prefetch, Shimcache, Amcache & BAM",
+          "Tracking User Activity & Lateral Movement Footprints"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Memory, Malware & Network Telemetry Hunting",
+        "topics": [
+          "Detecting Process Injection, Hollowing & Unbacked Memory",
+          "Extracting Indicators of Compromise (IOCs) & C2 Beacons",
+          "DNS Tunneling, HTTP Anomalies & Encrypted Traffic Clues",
+          "Writing Custom Detection Signatures & Hunting Queries"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Intrusion Reconstruction & Root-Cause Analysis",
+        "topics": [
+          "Building Super-Timelines Across Multiple Compromised Hosts",
+          "Identifying Initial Access Vectors & Privilege Escalation Paths",
+          "Assessing Data Staging & Exfiltration Scope",
+          "Containment, Eradication & Recovery Execution"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Automating Detections & Enterprise Hardening",
+        "topics": [
+          "Converting Hunt Findings into Automated SIEM/EDR Rules",
+          "Reducing Attack Surface & Closing Visibility Gaps",
+          "Executive & Technical Incident Reporting Standards",
+          "PIR Practical Certification Assessment Prep"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "PIR Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Live Intrusion Triage, Containment & Eradication",
+          "Data Exfiltration & Insider Threat Investigation",
+          "Root-Cause Analysis & Executive Breach Reporting",
+          "Official PIR Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official PIR Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "indp",
+    "code": "INDP",
+    "title": "Infrastructure Network Defense Professional",
+    "subtitle": "ZERO TRUST, SEGMENTATION & HARDENING",
+    "badge": "NETWORK DEFENSE",
+    "category": "threat-hunting",
+    "price": "$179",
+    "duration": "35 Hours",
+    "level": "Intermediate",
+    "mode": "Live Network Defense Labs",
+    "summary": "This course is for IT professionals responsible for protecting networks from any networked, endpoint, or cloud security threats.",
+    "description": "Architect resilient enterprise network defenses using Zero Trust segmentation, NGFW policy hardening, NAC, IDS/IPS deployment, and Active Directory tiering.",
+    "highlights": [
+      "Zero Trust Network Architecture & Micro-Segmentation",
+      "Firewall, VPN & Switch/Router Hardening",
+      "Active Directory Tier-0 Protection & Hardening",
+      "Official INDP Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Is INDP suited for network engineers?",
+        "a": "Yes, it bridges traditional network engineering with modern defensive security architecture."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "INDP Proactive Defense & Investigation Foundations",
+        "topics": [
+          "Core Concepts & Methodologies for Infrastructure Network Defense Professional",
+          "Hypothesis-Driven & Threat-Intelligence-Driven Workflows",
+          "Baseline Normalcy vs. Anomalous Enterprise Behavior",
+          "Lab Setup, Evidence Acquisition & Tooling Configuration"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Operating System & Persistence Artifact Analysis",
+        "topics": [
+          "Windows Registry, Autoruns, Services & WMI Persistence",
+          "Linux Systemd, Cron, SSH Keys & Rootkit Indicators",
+          "Execution Artifacts: Prefetch, Shimcache, Amcache & BAM",
+          "Tracking User Activity & Lateral Movement Footprints"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Memory, Malware & Network Telemetry Hunting",
+        "topics": [
+          "Detecting Process Injection, Hollowing & Unbacked Memory",
+          "Extracting Indicators of Compromise (IOCs) & C2 Beacons",
+          "DNS Tunneling, HTTP Anomalies & Encrypted Traffic Clues",
+          "Writing Custom Detection Signatures & Hunting Queries"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Intrusion Reconstruction & Root-Cause Analysis",
+        "topics": [
+          "Building Super-Timelines Across Multiple Compromised Hosts",
+          "Identifying Initial Access Vectors & Privilege Escalation Paths",
+          "Assessing Data Staging & Exfiltration Scope",
+          "Containment, Eradication & Recovery Execution"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Automating Detections & Enterprise Hardening",
+        "topics": [
+          "Converting Hunt Findings into Automated SIEM/EDR Rules",
+          "Reducing Attack Surface & Closing Visibility Gaps",
+          "Executive & Technical Incident Reporting Standards",
+          "INDP Practical Certification Assessment Prep"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "INDP Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Zero Trust Network Architecture & Micro-Segmentation",
+          "Firewall, VPN & Switch/Router Hardening",
+          "Active Directory Tier-0 Protection & Hardening",
+          "Official INDP Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official INDP Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "psrp",
+    "code": "PSRP",
+    "title": "Professional SIGMA Rules Programmer",
+    "subtitle": "GENERIC SIEM DETECTION ENGINEERING",
+    "badge": "DETECTION ENG",
+    "category": "threat-hunting",
+    "price": "$299",
+    "duration": "30 Hours",
+    "level": "Advanced",
+    "mode": "Live Detection Engineering Labs",
+    "summary": "The Sigma syntax provides a simple and powerful framework for expressing detection logic for diverse logs.",
+    "description": "Write high-fidelity, vendor-agnostic Sigma detection rules, convert them into Splunk SPL, Sentinel KQL, and QRadar AQL pipelines, and validate against live attack telemetry.",
+    "highlights": [
+      "Sigma YAML Schema, Modifiers & Logsource Mapping",
+      "Multi-SIEM Conversion (Splunk, Sentinel, Elastic)",
+      "False-Positive Reduction & Detection CI/CD",
+      "Official PSRP Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Will we test our Sigma rules against real attacks?",
+        "a": "Yes, every rule you author is validated against live attack logs in the lab."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "PSRP Proactive Defense & Investigation Foundations",
+        "topics": [
+          "Core Concepts & Methodologies for Professional SIGMA Rules Programmer",
+          "Hypothesis-Driven & Threat-Intelligence-Driven Workflows",
+          "Baseline Normalcy vs. Anomalous Enterprise Behavior",
+          "Lab Setup, Evidence Acquisition & Tooling Configuration"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Operating System & Persistence Artifact Analysis",
+        "topics": [
+          "Windows Registry, Autoruns, Services & WMI Persistence",
+          "Linux Systemd, Cron, SSH Keys & Rootkit Indicators",
+          "Execution Artifacts: Prefetch, Shimcache, Amcache & BAM",
+          "Tracking User Activity & Lateral Movement Footprints"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Memory, Malware & Network Telemetry Hunting",
+        "topics": [
+          "Detecting Process Injection, Hollowing & Unbacked Memory",
+          "Extracting Indicators of Compromise (IOCs) & C2 Beacons",
+          "DNS Tunneling, HTTP Anomalies & Encrypted Traffic Clues",
+          "Writing Custom Detection Signatures & Hunting Queries"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Intrusion Reconstruction & Root-Cause Analysis",
+        "topics": [
+          "Building Super-Timelines Across Multiple Compromised Hosts",
+          "Identifying Initial Access Vectors & Privilege Escalation Paths",
+          "Assessing Data Staging & Exfiltration Scope",
+          "Containment, Eradication & Recovery Execution"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Automating Detections & Enterprise Hardening",
+        "topics": [
+          "Converting Hunt Findings into Automated SIEM/EDR Rules",
+          "Reducing Attack Surface & Closing Visibility Gaps",
+          "Executive & Technical Incident Reporting Standards",
+          "PSRP Practical Certification Assessment Prep"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "PSRP Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Sigma YAML Schema, Modifiers & Logsource Mapping",
+          "Multi-SIEM Conversion (Splunk, Sentinel, Elastic)",
+          "False-Positive Reduction & Detection CI/CD",
+          "Official PSRP Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official PSRP Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pyre",
+    "code": "PYRE",
+    "title": "Professional YARA Rules Engineer",
+    "subtitle": "MALWARE CLASSIFICATION & MEMORY HUNTING",
+    "badge": "DETECTION ENG",
+    "category": "threat-hunting",
+    "price": "$299",
+    "duration": "30 Hours",
+    "level": "Advanced",
+    "mode": "Live Malware & YARA Labs",
+    "summary": "YARA Rule is used by threat hunters, incident responders and malware forensic analysts to identify malware samples.",
+    "description": "Author precision YARA signatures using hex patterns, regular expressions, PE/ELF module conditions, and opcode sequences to hunt malware across disks and memory.",
+    "highlights": [
+      "Hex, String, Regex & Condition Optimization",
+      "PE, ELF & Math Module YARA Signatures",
+      "Hunting Malware Families in Disk & RAM",
+      "Official PYRE Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "How does PYRE prevent overly broad YARA rules?",
+        "a": "We teach performance profiling, entropy checks, and clean-ware corpus validation."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "PYRE Proactive Defense & Investigation Foundations",
+        "topics": [
+          "Core Concepts & Methodologies for Professional YARA Rules Engineer",
+          "Hypothesis-Driven & Threat-Intelligence-Driven Workflows",
+          "Baseline Normalcy vs. Anomalous Enterprise Behavior",
+          "Lab Setup, Evidence Acquisition & Tooling Configuration"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Operating System & Persistence Artifact Analysis",
+        "topics": [
+          "Windows Registry, Autoruns, Services & WMI Persistence",
+          "Linux Systemd, Cron, SSH Keys & Rootkit Indicators",
+          "Execution Artifacts: Prefetch, Shimcache, Amcache & BAM",
+          "Tracking User Activity & Lateral Movement Footprints"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Memory, Malware & Network Telemetry Hunting",
+        "topics": [
+          "Detecting Process Injection, Hollowing & Unbacked Memory",
+          "Extracting Indicators of Compromise (IOCs) & C2 Beacons",
+          "DNS Tunneling, HTTP Anomalies & Encrypted Traffic Clues",
+          "Writing Custom Detection Signatures & Hunting Queries"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Intrusion Reconstruction & Root-Cause Analysis",
+        "topics": [
+          "Building Super-Timelines Across Multiple Compromised Hosts",
+          "Identifying Initial Access Vectors & Privilege Escalation Paths",
+          "Assessing Data Staging & Exfiltration Scope",
+          "Containment, Eradication & Recovery Execution"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Automating Detections & Enterprise Hardening",
+        "topics": [
+          "Converting Hunt Findings into Automated SIEM/EDR Rules",
+          "Reducing Attack Surface & Closing Visibility Gaps",
+          "Executive & Technical Incident Reporting Standards",
+          "PYRE Practical Certification Assessment Prep"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "PYRE Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Hex, String, Regex & Condition Optimization",
+          "PE, ELF & Math Module YARA Signatures",
+          "Hunting Malware Families in Disk & RAM",
+          "Official PYRE Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official PYRE Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "asda",
+    "code": "ASDA",
+    "title": "Advanced Snort Intrusion Detection Analyst",
+    "subtitle": "IDS/IPS DEPLOYMENT & CUSTOM SNORT RULES",
+    "badge": "IDS / IPS",
+    "category": "threat-hunting",
+    "price": "$159",
+    "duration": "30 Hours",
+    "level": "Intermediate",
+    "mode": "Live Snort IDS/IPS Lab",
+    "summary": "Snort training includes installation, configuration, and operations in the IDS and IPS modes.",
+    "description": "Install, configure, and tune Snort in both passive IDS and inline IPS modes. Write custom payload/header Snort rules to detect and block network exploits in real time.",
+    "highlights": [
+      "Snort IDS & Inline IPS Architecture Setup",
+      "Custom Snort Rule Header & Payload Options",
+      "PCAP Replay Testing & Evasion Mitigation",
+      "Official ASDA Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Does ASDA cover writing custom Snort signatures?",
+        "a": "Yes, you will write and validate custom detection and drop rules against exploit traffic."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "ASDA Proactive Defense & Investigation Foundations",
+        "topics": [
+          "Core Concepts & Methodologies for Advanced Snort Intrusion Detection Analyst",
+          "Hypothesis-Driven & Threat-Intelligence-Driven Workflows",
+          "Baseline Normalcy vs. Anomalous Enterprise Behavior",
+          "Lab Setup, Evidence Acquisition & Tooling Configuration"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Operating System & Persistence Artifact Analysis",
+        "topics": [
+          "Windows Registry, Autoruns, Services & WMI Persistence",
+          "Linux Systemd, Cron, SSH Keys & Rootkit Indicators",
+          "Execution Artifacts: Prefetch, Shimcache, Amcache & BAM",
+          "Tracking User Activity & Lateral Movement Footprints"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Memory, Malware & Network Telemetry Hunting",
+        "topics": [
+          "Detecting Process Injection, Hollowing & Unbacked Memory",
+          "Extracting Indicators of Compromise (IOCs) & C2 Beacons",
+          "DNS Tunneling, HTTP Anomalies & Encrypted Traffic Clues",
+          "Writing Custom Detection Signatures & Hunting Queries"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Intrusion Reconstruction & Root-Cause Analysis",
+        "topics": [
+          "Building Super-Timelines Across Multiple Compromised Hosts",
+          "Identifying Initial Access Vectors & Privilege Escalation Paths",
+          "Assessing Data Staging & Exfiltration Scope",
+          "Containment, Eradication & Recovery Execution"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Automating Detections & Enterprise Hardening",
+        "topics": [
+          "Converting Hunt Findings into Automated SIEM/EDR Rules",
+          "Reducing Attack Surface & Closing Visibility Gaps",
+          "Executive & Technical Incident Reporting Standards",
+          "ASDA Practical Certification Assessment Prep"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "ASDA Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Snort IDS & Inline IPS Architecture Setup",
+          "Custom Snort Rule Header & Payload Options",
+          "PCAP Replay Testing & Evasion Mitigation",
+          "Official ASDA Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official ASDA Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "estc",
+    "code": "ESTC",
+    "title": "Emerging Security Threats And Countermeasures",
+    "subtitle": "ZERO-DAY MITIGATION & THREAT LANDSCAPE",
+    "badge": "THREAT INTEL",
+    "category": "threat-hunting",
+    "price": "$199",
+    "duration": "30 Hours",
+    "level": "Intermediate",
+    "mode": "Live Labs & Threat Briefings",
+    "summary": "Find Out the Appropriate Remediation Actions to Mitigate Cyber Risks and Vulnerabilities.",
+    "description": "Analyze modern adversary campaigns, supply-chain compromises, cloud identity attacks, and emerging zero-day vectors alongside actionable architectural countermeasures.",
+    "highlights": [
+      "Supply-Chain & Cloud Identity Threat Analysis",
+      "Rapid Zero-Day Mitigation & Compensating Controls",
+      "Threat Intelligence Operationalization",
+      "Official ESTC Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Is this course updated with recent attack techniques?",
+        "a": "Yes, the curriculum is continuously refreshed with current real-world threat actor TTPs."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "ESTC Proactive Defense & Investigation Foundations",
+        "topics": [
+          "Core Concepts & Methodologies for Emerging Security Threats And Countermeasures",
+          "Hypothesis-Driven & Threat-Intelligence-Driven Workflows",
+          "Baseline Normalcy vs. Anomalous Enterprise Behavior",
+          "Lab Setup, Evidence Acquisition & Tooling Configuration"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Operating System & Persistence Artifact Analysis",
+        "topics": [
+          "Windows Registry, Autoruns, Services & WMI Persistence",
+          "Linux Systemd, Cron, SSH Keys & Rootkit Indicators",
+          "Execution Artifacts: Prefetch, Shimcache, Amcache & BAM",
+          "Tracking User Activity & Lateral Movement Footprints"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Memory, Malware & Network Telemetry Hunting",
+        "topics": [
+          "Detecting Process Injection, Hollowing & Unbacked Memory",
+          "Extracting Indicators of Compromise (IOCs) & C2 Beacons",
+          "DNS Tunneling, HTTP Anomalies & Encrypted Traffic Clues",
+          "Writing Custom Detection Signatures & Hunting Queries"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Intrusion Reconstruction & Root-Cause Analysis",
+        "topics": [
+          "Building Super-Timelines Across Multiple Compromised Hosts",
+          "Identifying Initial Access Vectors & Privilege Escalation Paths",
+          "Assessing Data Staging & Exfiltration Scope",
+          "Containment, Eradication & Recovery Execution"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Automating Detections & Enterprise Hardening",
+        "topics": [
+          "Converting Hunt Findings into Automated SIEM/EDR Rules",
+          "Reducing Attack Surface & Closing Visibility Gaps",
+          "Executive & Technical Incident Reporting Standards",
+          "ESTC Practical Certification Assessment Prep"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "ESTC Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Supply-Chain & Cloud Identity Threat Analysis",
+          "Rapid Zero-Day Mitigation & Compensating Controls",
+          "Threat Intelligence Operationalization",
+          "Official ESTC Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official ESTC Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adse",
+    "code": "ADSE",
+    "title": "Advanced Database Security for Enterprise",
+    "subtitle": "MSSQL, ORACLE, POSTGRES & NOSQL HARDENING",
+    "badge": "DATA SECURITY",
+    "category": "threat-hunting",
+    "price": "$179",
+    "duration": "35 Hours",
+    "level": "Intermediate to Advanced",
+    "mode": "Live Enterprise Database Labs",
+    "summary": "The corporate enterprise uses database solutions to manage data. Learn how to secure enterprise databases.",
+    "description": "Audit, exploit, and harden enterprise relational and NoSQL databases (MSSQL, Oracle, PostgreSQL, MySQL, MongoDB) against privilege escalation, injection, and data theft.",
+    "highlights": [
+      "Database Privilege Escalation & Auditing",
+      "Transparent Data Encryption (TDE) & Auditing",
+      "MSSQL, PostgreSQL, Oracle & MongoDB Hardening",
+      "Official ADSE Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Which database engines are included?",
+        "a": "Microsoft SQL Server, PostgreSQL, MySQL, Oracle, and MongoDB."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "ADSE Proactive Defense & Investigation Foundations",
+        "topics": [
+          "Core Concepts & Methodologies for Advanced Database Security for Enterprise",
+          "Hypothesis-Driven & Threat-Intelligence-Driven Workflows",
+          "Baseline Normalcy vs. Anomalous Enterprise Behavior",
+          "Lab Setup, Evidence Acquisition & Tooling Configuration"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Operating System & Persistence Artifact Analysis",
+        "topics": [
+          "Windows Registry, Autoruns, Services & WMI Persistence",
+          "Linux Systemd, Cron, SSH Keys & Rootkit Indicators",
+          "Execution Artifacts: Prefetch, Shimcache, Amcache & BAM",
+          "Tracking User Activity & Lateral Movement Footprints"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Memory, Malware & Network Telemetry Hunting",
+        "topics": [
+          "Detecting Process Injection, Hollowing & Unbacked Memory",
+          "Extracting Indicators of Compromise (IOCs) & C2 Beacons",
+          "DNS Tunneling, HTTP Anomalies & Encrypted Traffic Clues",
+          "Writing Custom Detection Signatures & Hunting Queries"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Intrusion Reconstruction & Root-Cause Analysis",
+        "topics": [
+          "Building Super-Timelines Across Multiple Compromised Hosts",
+          "Identifying Initial Access Vectors & Privilege Escalation Paths",
+          "Assessing Data Staging & Exfiltration Scope",
+          "Containment, Eradication & Recovery Execution"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "Automating Detections & Enterprise Hardening",
+        "topics": [
+          "Converting Hunt Findings into Automated SIEM/EDR Rules",
+          "Reducing Attack Surface & Closing Visibility Gaps",
+          "Executive & Technical Incident Reporting Standards",
+          "ADSE Practical Certification Assessment Prep"
+        ]
+      },
+      {
+        "number": "Module 06",
+        "title": "ADSE Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Database Privilege Escalation & Auditing",
+          "Transparent Data Encryption (TDE) & Auditing",
+          "MSSQL, PostgreSQL, Oracle & MongoDB Hardening",
+          "Official ADSE Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official ADSE Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "asre",
+    "code": "ASRE",
+    "title": "Advanced Software Reverse Engineering Expert",
+    "subtitle": "X86/X64 DISASSEMBLY, GHIDRA & IDA PRO",
+    "badge": "REVERSE ENG",
+    "category": "re-exploit",
+    "price": "$249",
+    "duration": "45 Hours",
+    "level": "Advanced",
+    "mode": "Live Binary Analysis Labs",
+    "summary": "Training includes binary analysis, auditing, control flow execution, modifying, uncovering vulnerabilities",
+    "description": "Master x86/x64 assembly, static and dynamic binary reversing with Ghidra, IDA, and x64dbg, anti-debugging bypasses, binary patching, and vulnerability discovery.",
+    "highlights": [
+      "x86/x64 Assembly & Control Flow Graph Analysis",
+      "Static & Dynamic Reversing with Ghidra & x64dbg",
+      "Anti-Debugging & Anti-Disassembly Bypass Labs",
+      "Official ASRE Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Do I need prior assembly experience?",
+        "a": "We start with a structured refresher on x86/x64 registers, stack frames, and calling conventions before diving into complex binaries."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "ASRE Low-Level Architecture & Tooling Setup",
+        "topics": [
+          "Foundational Concepts for Advanced Software Reverse Engineering Expert",
+          "CPU Registers, Stack Frames, Heap Internals & Memory Layout",
+          "Disassemblers, Decompilers & Debugger Mastery (Ghidra, x64dbg, GDB)",
+          "Setting Up Isolated Analysis & Exploit Development Labs"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Static & Dynamic Binary Analysis",
+        "topics": [
+          "Control Flow Graph (CFG) & Function Call Reconstruction",
+          "Identifying Dangerous APIs, Unsafe Memory Operations & Logic Bugs",
+          "Bypassing Anti-Debugging & Obfuscation Techniques",
+          "Binary Patching & Runtime State Inspection"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Memory Corruption & Payload Engineering",
+        "topics": [
+          "Crash Triage, Root-Cause Analysis & Control Over EIP/RIP",
+          "Bad-Character Filtering, Egg Hunters & Custom Shellcode",
+          "Bypassing Modern Mitigations (DEP, ASLR, Stack Canaries)",
+          "Return-Oriented Programming (ROP) Chain Construction"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Automation, Weaponization & Practical Exam Prep",
+        "topics": [
+          "Scripting Reliable Exploits & Analysis Tools in Python",
+          "Patch Diffing & 1-Day / 0-Day Vulnerability Analysis",
+          "Reliability Tuning Across Target OS Builds",
+          "ASRE Practical Certification Challenge Preparation"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "ASRE Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "x86/x64 Assembly & Control Flow Graph Analysis",
+          "Static & Dynamic Reversing with Ghidra & x64dbg",
+          "Anti-Debugging & Anti-Disassembly Bypass Labs",
+          "Official ASRE Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official ASRE Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "abse",
+    "code": "ABSE",
+    "title": "Advanced Buffer Overflow and Shellcoding Expert",
+    "subtitle": "STACK/HEAP CORRUPTION & CUSTOM SHELLCODE",
+    "badge": "EXPLOIT DEV",
+    "category": "re-exploit",
+    "price": "$249",
+    "duration": "45 Hours",
+    "level": "Advanced",
+    "mode": "Live Exploit Development Labs",
+    "summary": "Training fills the gap between Buffer Overflows and errors within source code, providing in-depth practicals.",
+    "description": "Understand memory corruption from the ground up: stack overflows, SEH overwrites, egg hunters, bad-character avoidance, and writing position-independent Windows/Linux shellcode.",
+    "highlights": [
+      "Stack Overflows, SEH & Egg Hunter Exploits",
+      "Custom Position-Independent Shellcode Authoring",
+      "Fuzzing & Crash Triage in Debuggers",
+      "Official ABSE Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Does ABSE lead into AXDE?",
+        "a": "Yes, ABSE builds the exact foundation needed for modern ASLR/DEP/ROP bypasses in AXDE."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "ABSE Low-Level Architecture & Tooling Setup",
+        "topics": [
+          "Foundational Concepts for Advanced Buffer Overflow and Shellcoding Expert",
+          "CPU Registers, Stack Frames, Heap Internals & Memory Layout",
+          "Disassemblers, Decompilers & Debugger Mastery (Ghidra, x64dbg, GDB)",
+          "Setting Up Isolated Analysis & Exploit Development Labs"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Static & Dynamic Binary Analysis",
+        "topics": [
+          "Control Flow Graph (CFG) & Function Call Reconstruction",
+          "Identifying Dangerous APIs, Unsafe Memory Operations & Logic Bugs",
+          "Bypassing Anti-Debugging & Obfuscation Techniques",
+          "Binary Patching & Runtime State Inspection"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Memory Corruption & Payload Engineering",
+        "topics": [
+          "Crash Triage, Root-Cause Analysis & Control Over EIP/RIP",
+          "Bad-Character Filtering, Egg Hunters & Custom Shellcode",
+          "Bypassing Modern Mitigations (DEP, ASLR, Stack Canaries)",
+          "Return-Oriented Programming (ROP) Chain Construction"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Automation, Weaponization & Practical Exam Prep",
+        "topics": [
+          "Scripting Reliable Exploits & Analysis Tools in Python",
+          "Patch Diffing & 1-Day / 0-Day Vulnerability Analysis",
+          "Reliability Tuning Across Target OS Builds",
+          "ABSE Practical Certification Challenge Preparation"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "ABSE Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Stack Overflows, SEH & Egg Hunter Exploits",
+          "Custom Position-Independent Shellcode Authoring",
+          "Fuzzing & Crash Triage in Debuggers",
+          "Official ABSE Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official ABSE Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "axde",
+    "code": "AXDE",
+    "title": "Advanced Exploit Development Expert",
+    "subtitle": "DEP/ASLR BYPASS, ROP CHAINS & 0-DAY ANALYSIS",
+    "badge": "EXPLOIT DEV",
+    "category": "re-exploit",
+    "price": "$299",
+    "duration": "50 Hours",
+    "level": "Expert",
+    "mode": "Live Modern OS Exploit Labs",
+    "summary": "Identify 0day vulnerabilities, analyze patches for 0day exploits, write complex exploits and more..",
+    "description": "Bypass modern OS exploit mitigations using Return-Oriented Programming (ROP), ASLR info-leaks, heap grooming, patch diffing for 1-day/0-day vulnerabilities, and weaponized exploit chains.",
+    "highlights": [
+      "DEP & ASLR Bypass with Custom ROP Chains",
+      "Binary Patch Diffing & 0-Day Root-Cause Analysis",
+      "Heap Exploitation & Modern Mitigation Evasion",
+      "Official AXDE Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "What certifications is AXDE comparable to?",
+        "a": "AXDE aligns with advanced exploit development standards such as OSEE/OSED."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "AXDE Low-Level Architecture & Tooling Setup",
+        "topics": [
+          "Foundational Concepts for Advanced Exploit Development Expert",
+          "CPU Registers, Stack Frames, Heap Internals & Memory Layout",
+          "Disassemblers, Decompilers & Debugger Mastery (Ghidra, x64dbg, GDB)",
+          "Setting Up Isolated Analysis & Exploit Development Labs"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Static & Dynamic Binary Analysis",
+        "topics": [
+          "Control Flow Graph (CFG) & Function Call Reconstruction",
+          "Identifying Dangerous APIs, Unsafe Memory Operations & Logic Bugs",
+          "Bypassing Anti-Debugging & Obfuscation Techniques",
+          "Binary Patching & Runtime State Inspection"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Memory Corruption & Payload Engineering",
+        "topics": [
+          "Crash Triage, Root-Cause Analysis & Control Over EIP/RIP",
+          "Bad-Character Filtering, Egg Hunters & Custom Shellcode",
+          "Bypassing Modern Mitigations (DEP, ASLR, Stack Canaries)",
+          "Return-Oriented Programming (ROP) Chain Construction"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Automation, Weaponization & Practical Exam Prep",
+        "topics": [
+          "Scripting Reliable Exploits & Analysis Tools in Python",
+          "Patch Diffing & 1-Day / 0-Day Vulnerability Analysis",
+          "Reliability Tuning Across Target OS Builds",
+          "AXDE Practical Certification Challenge Preparation"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "AXDE Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "DEP & ASLR Bypass with Custom ROP Chains",
+          "Binary Patch Diffing & 0-Day Root-Cause Analysis",
+          "Heap Exploitation & Modern Mitigation Evasion",
+          "Official AXDE Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official AXDE Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ppsp",
+    "code": "PPSP",
+    "title": "Professional Python Security Programmer",
+    "subtitle": "OFFENSIVE & DEFENSIVE SECURITY AUTOMATION",
+    "badge": "SECURITY CODING",
+    "category": "re-exploit",
+    "price": "$179",
+    "duration": "35 Hours",
+    "level": "Beginner to Intermediate",
+    "mode": "Live Coding & Cyber Range Labs",
+    "summary": "Python can help to automate tasks across the cyberattack life cycle for both cyber attackers and defenders.",
+    "description": "Build custom port scanners, web fuzzers, packet sniffers with Scapy, exploit automation scripts, and SOC threat-intel enrichment pipelines in Python 3.",
+    "highlights": [
+      "Custom Network Scanners & Scapy Packet Crafting",
+      "Multi-Threaded Web & API Fuzzing Tools",
+      "Automated Log Parsing & Threat Intel APIs",
+      "Official PPSP Practical Certification Exam"
+    ],
+    "faqs": [
+      {
+        "q": "Is PPSP suitable if I am new to Python?",
+        "a": "Yes, we cover Python security libraries step-by-step while building working offensive and defensive tools."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "PPSP Low-Level Architecture & Tooling Setup",
+        "topics": [
+          "Foundational Concepts for Professional Python Security Programmer",
+          "CPU Registers, Stack Frames, Heap Internals & Memory Layout",
+          "Disassemblers, Decompilers & Debugger Mastery (Ghidra, x64dbg, GDB)",
+          "Setting Up Isolated Analysis & Exploit Development Labs"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Static & Dynamic Binary Analysis",
+        "topics": [
+          "Control Flow Graph (CFG) & Function Call Reconstruction",
+          "Identifying Dangerous APIs, Unsafe Memory Operations & Logic Bugs",
+          "Bypassing Anti-Debugging & Obfuscation Techniques",
+          "Binary Patching & Runtime State Inspection"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Memory Corruption & Payload Engineering",
+        "topics": [
+          "Crash Triage, Root-Cause Analysis & Control Over EIP/RIP",
+          "Bad-Character Filtering, Egg Hunters & Custom Shellcode",
+          "Bypassing Modern Mitigations (DEP, ASLR, Stack Canaries)",
+          "Return-Oriented Programming (ROP) Chain Construction"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Automation, Weaponization & Practical Exam Prep",
+        "topics": [
+          "Scripting Reliable Exploits & Analysis Tools in Python",
+          "Patch Diffing & 1-Day / 0-Day Vulnerability Analysis",
+          "Reliability Tuning Across Target OS Builds",
+          "PPSP Practical Certification Challenge Preparation"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "PPSP Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Custom Network Scanners & Scapy Packet Crafting",
+          "Multi-Threaded Web & API Fuzzing Tools",
+          "Automated Log Parsing & Threat Intel APIs",
+          "Official PPSP Practical Certification Exam",
+          "24-Hour Practical Lab Simulation & Official PPSP Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ceh-practical",
+    "code": "CEH",
+    "title": "Certified Ethical Hacker (CEH Practical)",
+    "subtitle": "INDUSTRY ETHICAL HACKING BOOTCAMP",
+    "badge": "LEAD AUDITOR & CERT",
+    "category": "auditor-cert",
+    "price": "$299",
+    "duration": "50 Hours",
+    "level": "All Tiers",
+    "mode": "Live Instructor-Led & Cyber Range",
+    "summary": "Comprehensive ethical hacking preparation covering reconnaissance, scanning, enumeration, system hacking, web attacks, and practical exam readiness.",
+    "description": "Master all 20 ethical hacking domains with 100% hands-on cyber range labs designed to prepare candidates for both theoretical and 6-hour practical ethical hacking certifications.",
+    "highlights": [
+      "Full 20-Domain Ethical Hacking Lab Coverage",
+      "Mock Practical Exam Challenges & Walkthroughs",
+      "24/7 Cloud Lab Access & Mentor Support",
+      "Certificate of Practical Completion"
+    ],
+    "faqs": [
+      {
+        "q": "Does this include hands-on labs for every module?",
+        "a": "Yes, every domain includes guided and unguided cyber range challenges."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "CEH Framework Clauses & Governance Structure",
+        "topics": [
+          "Core Principles & Regulatory Scope of Certified Ethical Hacker (CEH Practical)",
+          "Management System Context, Leadership & Risk-Based Thinking",
+          "Control Objectives, Annex Controls & Statement of Applicability",
+          "Scoping Boundaries & Asset Classification"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Risk Assessment, Treatment & Control Design",
+        "topics": [
+          "Quantitative & Qualitative Information Security Risk Assessment",
+          "Developing Risk Treatment Plans & Residual Risk Acceptance",
+          "Drafting Audit-Ready Policies, SOPs & Standards",
+          "Third-Party & Supply-Chain Risk Governance"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Audit Planning, Evidence Sampling & Interviews",
+        "topics": [
+          "ISO 19011 Auditing Principles & Audit Program Management",
+          "Preparing Audit Checklists & Objective Evidence Sampling",
+          "Conducting Effective Auditee Interviews & Walkthroughs",
+          "Evaluating Technical & Operational Control Effectiveness"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Non-Conformities, Corrective Actions & Exam Readiness",
+        "topics": [
+          "Classifying Major vs. Minor Non-Conformities & Observations",
+          "Root-Cause Analysis & Corrective Action Plan (CAPA) Verification",
+          "Stage 1 & Stage 2 Certification Audit Simulation",
+          "CEH Final Practical Assessment & Certification Guidance"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "CEH Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "Full 20-Domain Ethical Hacking Lab Coverage",
+          "Mock Practical Exam Challenges & Walkthroughs",
+          "24/7 Cloud Lab Access & Mentor Support",
+          "Certificate of Practical Completion",
+          "24-Hour Practical Lab Simulation & Official CEH Certification Readiness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iso-lead-auditor",
+    "code": "ISO-LA",
+    "title": "ISO 27001 & ISO 42001 Lead Auditor Bootcamp",
+    "subtitle": "ISMS & AIMS AUDIT EXECUTION",
+    "badge": "LEAD AUDITOR & CERT",
+    "category": "auditor-cert",
+    "price": "$349",
+    "duration": "40 Hours",
+    "level": "Intermediate to Advanced",
+    "mode": "Live Auditor Workshops & Case Studies",
+    "summary": "Learn how to plan, conduct, report, and follow up on ISO/IEC 27001:2022 and ISO/IEC 42001 management system audits.",
+    "description": "Taught by practicing lead auditors, this bootcamp covers ISO 19011 auditing guidelines, non-conformity drafting, Annex A evidence verification, and real enterprise audit simulations.",
+    "highlights": [
+      "ISO 27001:2022 & ISO 42001 Clause-by-Clause Audit",
+      "Live Mock Audit Interviews & Non-Conformity Writing",
+      "Audit Checklist & Evidence Sampling Templates",
+      "Lead Auditor Readiness Certification"
+    ],
+    "faqs": [
+      {
+        "q": "Who should take the Lead Auditor Bootcamp?",
+        "a": "GRC professionals, internal auditors, CISOs, and security consultants leading ISO implementations."
+      }
+    ],
+    "modules": [
+      {
+        "number": "Module 01",
+        "title": "ISO-LA Framework Clauses & Governance Structure",
+        "topics": [
+          "Core Principles & Regulatory Scope of ISO 27001 & ISO 42001 Lead Auditor Bootcamp",
+          "Management System Context, Leadership & Risk-Based Thinking",
+          "Control Objectives, Annex Controls & Statement of Applicability",
+          "Scoping Boundaries & Asset Classification"
+        ]
+      },
+      {
+        "number": "Module 02",
+        "title": "Risk Assessment, Treatment & Control Design",
+        "topics": [
+          "Quantitative & Qualitative Information Security Risk Assessment",
+          "Developing Risk Treatment Plans & Residual Risk Acceptance",
+          "Drafting Audit-Ready Policies, SOPs & Standards",
+          "Third-Party & Supply-Chain Risk Governance"
+        ]
+      },
+      {
+        "number": "Module 03",
+        "title": "Audit Planning, Evidence Sampling & Interviews",
+        "topics": [
+          "ISO 19011 Auditing Principles & Audit Program Management",
+          "Preparing Audit Checklists & Objective Evidence Sampling",
+          "Conducting Effective Auditee Interviews & Walkthroughs",
+          "Evaluating Technical & Operational Control Effectiveness"
+        ]
+      },
+      {
+        "number": "Module 04",
+        "title": "Non-Conformities, Corrective Actions & Exam Readiness",
+        "topics": [
+          "Classifying Major vs. Minor Non-Conformities & Observations",
+          "Root-Cause Analysis & Corrective Action Plan (CAPA) Verification",
+          "Stage 1 & Stage 2 Certification Audit Simulation",
+          "ISO-LA Final Practical Assessment & Certification Guidance"
+        ]
+      },
+      {
+        "number": "Module 05",
+        "title": "ISO-LA Hands-On Cyber Range Capstone & Certification",
+        "topics": [
+          "ISO 27001:2022 & ISO 42001 Clause-by-Clause Audit",
+          "Live Mock Audit Interviews & Non-Conformity Writing",
+          "Audit Checklist & Evidence Sampling Templates",
+          "Lead Auditor Readiness Certification",
+          "24-Hour Practical Lab Simulation & Official ISO-LA Certification Readiness"
+        ]
+      }
+    ]
+  }
+]

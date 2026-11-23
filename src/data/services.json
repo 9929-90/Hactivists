@@ -1,0 +1,359 @@
+{
+  "solutionsMenu": {
+    "frameworks": [
+      {
+        "id": "iso-27001",
+        "name": "ISO 27001:2022 ISMS",
+        "desc": "Information Security Management System certification"
+      },
+      {
+        "id": "soc-2",
+        "name": "SOC 2 Type I & Type II",
+        "desc": "AICPA Trust Services Criteria readiness & attestation"
+      },
+      {
+        "id": "iso-42001",
+        "name": "ISO 42001 AI Governance",
+        "desc": "Artificial Intelligence Management System compliance"
+      },
+      {
+        "id": "dpdp-act",
+        "name": "DPDP Act (India)",
+        "desc": "Digital Personal Data Protection privacy compliance"
+      },
+      {
+        "id": "vapt-pentest",
+        "name": "VAPT & Red Teaming",
+        "desc": "Web, API, Cloud & Infrastructure penetration testing"
+      }
+    ]
+  },
+  "services": [
+    {
+      "id": "iso-27001",
+      "code": "ISO 27001",
+      "title": "ISO 27001:2022 Certification",
+      "badge": "ISMS COMPLIANCE",
+      "category": "compliance",
+      "timeline": "6–10 Weeks",
+      "passRate": "100% First-Pass Audit",
+      "summary": "End-to-end ISMS design, Annex A control implementation, risk treatment plans, internal audits, and external certification support.",
+      "deliverables": [
+        "Comprehensive ISO 27001:2022 Gap Assessment Report",
+        "Information Security Policy Suite & SOPs (93 Annex A Controls)",
+        "Asset Inventory, Risk Register & Statement of Applicability (SoA)",
+        "Employee Security Awareness Training & Records",
+        "Pre-Certification Internal Audit & Management Review Minutes",
+        "Stage 1 & Stage 2 External Certification Body Audit Support"
+      ],
+      "faqs": [
+        {
+          "q": "How long does it take to get ISO 27001:2022 certified?",
+          "a": "With our structured 6-stage implementation methodology, most startups and mid-sized enterprises achieve full audit readiness within 6 to 10 weeks."
+        },
+        {
+          "q": "Do you help with migrating from ISO 27001:2013 to 2022?",
+          "a": "Yes, we handle full transition gap assessments, updated Annex A threat intelligence controls, and recertification audits."
+        }
+      ]
+    },
+    {
+      "id": "soc-2",
+      "code": "SOC 2",
+      "title": "SOC 2 Type I & Type II",
+      "badge": "AICPA ATTESTATION",
+      "category": "compliance",
+      "timeline": "4–8 Weeks (Type I)",
+      "passRate": "150+ Reports Issued",
+      "summary": "Accelerate enterprise B2B sales with AICPA Trust Services Criteria readiness, automated evidence collection, and CPA audit defense.",
+      "deliverables": [
+        "Trust Services Criteria (Security, Availability, Confidentiality) Scoping",
+        "Cloud Infrastructure & IAM Hardening Checklist (AWS, Azure, GCP)",
+        "System Description Drafting & Control Matrix Mapping",
+        "Continuous Evidence Collection & Automated Compliance Setup",
+        "Vendor Risk Management & Incident Response Playbooks",
+        "Direct Coordination with Licensed CPA Audit Firms"
+      ],
+      "faqs": [
+        {
+          "q": "Should we start with SOC 2 Type I or go straight to Type II?",
+          "a": "SOC 2 Type I validates control design at a point in time (4–6 weeks) to unblock immediate enterprise deals, followed by a 3-to-6-month Type II observation window."
+        },
+        {
+          "q": "Can you work alongside Vanta, Drata, or Sprinto?",
+          "a": "Yes, our lead auditors configure, tune, and map custom controls directly inside your compliance automation platform."
+        }
+      ]
+    },
+    {
+      "id": "iso-42001",
+      "code": "ISO 42001",
+      "title": "ISO 42001 AI Governance",
+      "badge": "AI MANAGEMENT SYSTEM",
+      "category": "compliance",
+      "timeline": "6–10 Weeks",
+      "passRate": "100% Audit Readiness",
+      "summary": "Establish responsible AI governance, algorithmic impact assessments, model lifecycle controls, and regulatory trust for AI-driven products.",
+      "deliverables": [
+        "AI System Inventory & Risk Classification Matrix",
+        "AI Impact Assessment & Bias Mitigation Framework",
+        "Training Data Governance & Model Provenance Controls",
+        "AI Acceptable Use & Human-in-the-Loop Policies",
+        "EU AI Act & NIST AI RMF Cross-Mapping",
+        "Certification Readiness & Internal AIMS Audit"
+      ],
+      "faqs": [
+        {
+          "q": "Who needs ISO/IEC 42001 certification?",
+          "a": "Any organization developing, deploying, or integrating generative AI, machine learning models, or automated decision systems for enterprise clients."
+        }
+      ]
+    },
+    {
+      "id": "dpdp-act",
+      "code": "DPDP / GDPR",
+      "title": "DPDP Act & Data Privacy",
+      "badge": "PRIVACY GOVERNANCE",
+      "category": "compliance",
+      "timeline": "4–8 Weeks",
+      "passRate": "Full Regulatory Alignment",
+      "summary": "Practical compliance readiness for India’s Digital Personal Data Protection (DPDP) Act and GDPR, covering consent flows and data mapping.",
+      "deliverables": [
+        "Personal Data Discovery & Data Flow Mapping (RoPA)",
+        "Consent Manager Architecture & Privacy Notice Drafting",
+        "Data Principal Rights (Access, Erasure, Grievance) Workflows",
+        "Data Processor Agreements & Cross-Border Transfer Reviews",
+        "Data Protection Impact Assessments (DPIA)",
+        "Breach Notification & CERT-In 6-Hour Incident Playbook"
+      ],
+      "faqs": [
+        {
+          "q": "What are the key requirements under India’s DPDP Act?",
+          "a": "Organizations acting as Data Fiduciaries must implement verifiable consent notices, purpose limitation, reasonable security safeguards, and prompt breach reporting."
+        }
+      ]
+    },
+    {
+      "id": "vapt-pentest",
+      "code": "VAPT",
+      "title": "VAPT & Penetration Testing",
+      "badge": "OFFENSIVE SECURITY",
+      "category": "security",
+      "timeline": "1–3 Weeks",
+      "passRate": "CERT-In & OSCP Methodology",
+      "summary": "Deep manual and automated penetration testing across Web Applications, REST/GraphQL APIs, Mobile Apps, Cloud, and Enterprise Networks.",
+      "deliverables": [
+        "Executive Risk Summary & CVSS v3.1 Severity Breakdown",
+        "Step-by-Step Proof-of-Concept (PoC) Exploitation Walkthroughs",
+        "OWASP Top 10, SANS 25 & Business Logic Vulnerability Analysis",
+        "Code-Level & Infrastructure Remediation Guidance",
+        "One Free Confirmatory Re-Test & Remediation Verification",
+        "Official Safe-to-Host / VAPT Attestation Certificate"
+      ],
+      "faqs": [
+        {
+          "q": "Is your VAPT purely automated scanning or manual?",
+          "a": "Over 85% of our engagement is manual exploitation led by OSCP, OSEE, and eWPTX certified engineers to uncover chained business logic flaws automated scanners miss."
+        }
+      ],
+      "subServices": [
+        {
+          "id": "web-app-vapt",
+          "parentServiceId": "vapt-pentest",
+          "code": "WEB VAPT",
+          "title": "Web Application VAPT",
+          "badge": "OWASP TOP 10 & LOGIC",
+          "category": "security",
+          "timeline": "1–2 Weeks",
+          "passRate": "CERT-In & OWASP ASVS",
+          "summary": "Comprehensive black-box, grey-box, and white-box penetration testing for web portals, SaaS platforms, and single-page applications.",
+          "deliverables": [
+            "OWASP Top 10 & ASVS Level 2/3 Vulnerability Assessment",
+            "Authentication, Session Management & RBAC Bypass Testing",
+            "SQLi, XSS, SSRF, IDOR, CSRF & Business Logic Exploitation",
+            "Step-by-Step PoC Walkthroughs & CVSS v3.1 Severity Scoring",
+            "Developer Code-Level Remediation & Free Confirmatory Re-Test",
+            "Official Web Application Safe-to-Host Certificate"
+          ],
+          "faqs": [
+            {
+              "q": "Do you test authenticated user roles and multi-tenant workflows?",
+              "a": "Yes, we perform grey-box testing across multiple privilege tiers (Admin, Manager, User) to uncover horizontal and vertical privilege escalations (IDOR/BOLA)."
+            },
+            {
+              "q": "Is a confirmatory re-test included after we patch the findings?",
+              "a": "Yes, one full confirmatory re-test and updated Safe-to-Host attestation certificate are included at no extra cost."
+            }
+          ]
+        },
+        {
+          "id": "android-app-vapt",
+          "parentServiceId": "vapt-pentest",
+          "code": "ANDROID VAPT",
+          "title": "Android Application VAPT",
+          "badge": "OWASP MASVS • APK",
+          "category": "security",
+          "timeline": "1–2 Weeks",
+          "passRate": "OWASP MASTG Aligned",
+          "summary": "Deep static (SAST) and dynamic (DAST) security testing of Android APKs, covering reverse engineering, runtime hooking, and insecure data storage.",
+          "deliverables": [
+            "APK Decompilation, Smali Analysis & Hardcoded Secret Discovery",
+            "SSL Pinning, Root Detection & Anti-Tampering Bypass Testing",
+            "Frida & Objection Runtime Memory Instrumentation Audit",
+            "Insecure SharedPreferences, SQLite, Keystore & IPC Component Checks",
+            "Backend API Communication & Deep-Link Exploitation Analysis",
+            "Remediation Report & Confirmatory Re-Testing"
+          ],
+          "faqs": [
+            {
+              "q": "Do you test both rooted and non-rooted scenarios?",
+              "a": "Yes, we bypass root detection and SSL pinning via Frida to inspect runtime memory, local storage, and encrypted API traffic."
+            }
+          ]
+        },
+        {
+          "id": "api-testing",
+          "parentServiceId": "vapt-pentest",
+          "code": "API VAPT",
+          "title": "API Testing",
+          "badge": "REST • GRAPHQL • GRPC",
+          "category": "security",
+          "timeline": "1–2 Weeks",
+          "passRate": "OWASP API Top 10",
+          "summary": "Targeted penetration testing for REST, GraphQL, SOAP, and gRPC APIs against BOLA/IDOR, broken authentication, mass assignment, and rate-limit flaws.",
+          "deliverables": [
+            "OWASP API Security Top 10 Complete Assessment",
+            "BOLA (IDOR), BOPLA & Broken Function Level Authorization Testing",
+            "JWT Token Forgery, OAuth 2.0 & API Key Leakage Audit",
+            "GraphQL Introspection, Batching & Injection Exploitation",
+            "Postman / OpenAPI Schema Fuzzing & Rate-Limit Verification",
+            "API Remediation Playbook & Confirmatory Re-Test"
+          ],
+          "faqs": [
+            {
+              "q": "What do you need from us to start API Testing?",
+              "a": "We work directly from your Postman collection, Swagger/OpenAPI specification, and test credentials for each user role."
+            }
+          ]
+        },
+        {
+          "id": "ios-pentesting",
+          "parentServiceId": "vapt-pentest",
+          "code": "iOS VAPT",
+          "title": "iOS Pentesting",
+          "badge": "OWASP MASVS • IPA",
+          "category": "security",
+          "timeline": "1–2 Weeks",
+          "passRate": "OWASP MASTG Aligned",
+          "summary": "Comprehensive static and runtime penetration testing for iOS applications (IPA), evaluating Keychain security, binary protections, and ATS/TLS enforcement.",
+          "deliverables": [
+            "IPA Binary Analysis (PIE, ARC, Stack Canaries & Symbol Stripping)",
+            "iOS Keychain, Plist, CoreData & Snapshot Cache Forensics",
+            "Jailbreak Detection & SSL Pinning Bypass via Frida/Cycript",
+            "URL Scheme, Universal Links & Local Authentication (FaceID/TouchID) Testing",
+            "App Transport Security (ATS) & Encrypted Payload Inspection",
+            "Detailed Remediation Guidance & Confirmatory Re-Test"
+          ],
+          "faqs": [
+            {
+              "q": "Should we provide an IPA build or TestFlight access?",
+              "a": "Either an unencrypted/debug IPA build or a TestFlight invite allows us to perform full static binary inspection and dynamic runtime analysis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cloud-security",
+      "code": "CSPM / CLOUD",
+      "title": "Cloud Security & Architecture Review",
+      "badge": "AWS • AZURE • GCP",
+      "category": "security",
+      "timeline": "2–3 Weeks",
+      "passRate": "CIS Benchmark Aligned",
+      "summary": "Harden multi-cloud environments against IAM privilege escalation, exposed storage buckets, Kubernetes misconfigurations, and lateral movement.",
+      "deliverables": [
+        "CIS Benchmarks Level 1 & Level 2 Configuration Audit",
+        "IAM Least-Privilege & Role Trust Policy Analysis",
+        "Kubernetes (EKS/AKS/GKE) & Container Runtime Security Review",
+        "Network Segmentation, VPC & Secrets Management Hardening",
+        "Prioritized Terraform / CloudFormation Remediation Snippets"
+      ],
+      "faqs": [
+        {
+          "q": "Does the cloud audit require intrusive changes to production?",
+          "a": "No, we perform read-only IAM configuration audits and isolated staging simulations with zero production downtime."
+        }
+      ]
+    },
+    {
+      "id": "hipaa-pcidss",
+      "code": "HIPAA / PCI",
+      "title": "HIPAA & PCI-DSS Compliance",
+      "badge": "HEALTHCARE & FINTECH",
+      "category": "compliance",
+      "timeline": "6–12 Weeks",
+      "passRate": "100% Attestation Success",
+      "summary": "Specialized regulatory compliance for HealthTech and FinTech companies handling ePHI or cardholder payment environments.",
+      "deliverables": [
+        "Cardholder Data Environment (CDE) & ePHI Boundary Scoping",
+        "HIPAA Security, Privacy & Breach Notification Rule Gap Audit",
+        "PCI-DSS v4.0 Control Implementation & SAQ / ROC Preparation",
+        "Encryption Key Management & Access Logging Architecture",
+        "Business Associate Agreements (BAA) & ASV Scan Coordination"
+      ],
+      "faqs": [
+        {
+          "q": "Do you support PCI-DSS v4.0 requirements?",
+          "a": "Yes, including targeted risk analyses, authenticated vulnerability scans, script integrity monitoring, and multi-factor authentication mandates."
+        }
+      ]
+    },
+    {
+      "id": "vciso-advisory",
+      "code": "vCISO",
+      "title": "Virtual CISO (vCISO) Advisory",
+      "badge": "FRACTIONAL LEADERSHIP",
+      "category": "advisory",
+      "timeline": "Ongoing Retainer",
+      "passRate": "Executive Board Ready",
+      "summary": "On-demand CISO leadership to own your security roadmap, answer enterprise customer security questionnaires, and govern vendor risks.",
+      "deliverables": [
+        "Quarterly Board & Executive Risk Posture Reporting",
+        "Enterprise Customer Security Questionnaire & RFP Turnaround",
+        "Third-Party Vendor Security Assessments",
+        "Annual Security Budget & Tooling Optimization",
+        "Tabletop Incident Response Drills & Crisis Leadership"
+      ],
+      "faqs": [
+        {
+          "q": "How quickly can a vCISO join our customer security calls?",
+          "a": "Your dedicated vCISO joins enterprise prospect calls within 24–48 hours to directly represent your security posture and accelerate deal closures."
+        }
+      ]
+    },
+    {
+      "id": "soc-ir-readiness",
+      "code": "SOC & IR",
+      "title": "SOC Readiness & Incident Response",
+      "badge": "DEFENSIVE OPERATIONS",
+      "category": "advisory",
+      "timeline": "3–6 Weeks",
+      "passRate": "MITRE ATT&CK Mapped",
+      "summary": "Design SIEM detection rules, incident response playbooks, and tabletop simulations to detect and contain breaches rapidly.",
+      "deliverables": [
+        "MITRE ATT&CK Detection Coverage Gap Assessment",
+        "Custom SIEM Use-Case & Sigma Rule Engineering",
+        "Ransomware, Insider Threat & Cloud Breach Runbooks",
+        "Executive & Technical Tabletop Incident Simulation",
+        "CERT-In & Regulatory Breach Reporting Templates"
+      ],
+      "faqs": [
+        {
+          "q": "Which SIEM platforms do you support?",
+          "a": "We engineer detection pipelines across Splunk, Microsoft Sentinel, IBM QRadar, Wazuh, and AWS Security Lake."
+        }
+      ]
+    }
+  ]
+}
