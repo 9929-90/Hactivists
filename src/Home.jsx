@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {SERVICES,TRAININGS,company,NUM1,NUM2,tel,industries,FAQ} from './data.js';
+import {HowWeWork} from './Extra.jsx';
 import {Icon,Count,Words,Tag,useReveal,FaqSection} from './ui.jsx';
 import {SvcCard,TCard} from './cards.jsx';
 import {IndustryMarquee} from './Industry.jsx';
@@ -29,6 +30,7 @@ return <>
 <section className="sec alt"><div className="wrap"><div className="mission panel spot" data-r><div className="tag"><i/>OUR MISSION</div><h3>Bridging Regulatory Demands &amp; Practical Implementation</h3><p>Our mission is to simplify cybersecurity and compliance while helping organizations build stronger, safer, and more resilient businesses. We aim to bridge the gap between regulatory requirements and practical implementation by delivering tailored guidance, actionable recommendations, and structured compliance roadmaps that support long-term security and business growth.</p>
 <div className="row"><Link className="btn btn-primary" to="/about">About Us<Icon n="right" s={18}/></Link><button className="btn btn-ghost" onClick={openConsult}>Schedule Your Free Strategy Call</button></div></div></div></section>
 
+<HowWeWork/>
 <FaqSection items={FAQ.home}/>
 
 <section className="sec alt"><div className="wrap"><div className="sh"><Tag>DIRECT ACCESS • OFFICES</Tag><h2 data-w><Words parts={[['Get In Touch With Our Team']]}/></h2><p data-r>Reach our lead auditors and admissions directors directly via phone, WhatsApp, or email across our offices.</p></div><Direct/><div className="row c" data-r><Link className="btn btn-primary" to="/contact">Contact Us &amp; Locations<Icon n="right" s={18}/></Link></div></div></section></>}

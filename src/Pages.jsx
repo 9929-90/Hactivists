@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import {Link} from 'react-router-dom';
 import {SERVICES,SOLUTIONS,svcById,iconOf,FAQ} from './data.js';
+import {WaysToEngage,Frameworks} from './Extra.jsx';
 import {Icon,Words,Tag,useReveal,PageHero,FaqSection,ContactForm} from './ui.jsx';
 import {SvcCard} from './cards.jsx';
 import {Direct,Offices,Overview} from './blocks.jsx';
@@ -32,10 +33,12 @@ export function ServicesList(){useReveal();const[cat,setCat]=useState('all');con
 <PageHero tag="OUR CAPABILITIES" title="Cybersecurity & Compliance Services" lead="Turnkey consulting, penetration testing, and fractional leadership delivered by certified lead auditors."/>
 <Overview id="_services"/>
 <section className="sec alt tight"><div className="wrap"><div className="tabs" role="tablist">{TABS.map(([k,l])=><button key={k} role="tab" aria-selected={cat===k} className={cat===k?'on':''} onClick={()=>setCat(k)}>{l}</button>)}</div><div className="cards">{list.map(s=><SvcCard key={s.id} s={s} pop/>)}</div></div></section>
-<FaqSection items={FAQ.services}/></>}
+<WaysToEngage/>
+<FaqSection alt items={FAQ.services}/></>}
 
 export function Solutions(){useReveal();return <>
 <PageHero tag="KEY FRAMEWORKS & REGULATIONS" title="Solutions for Every Framework and Regulation" lead="Choose a framework to see its scope, deliverables, timeline and frequently asked questions."/>
 <Overview id="_solutions"/>
 <section className="sec alt tight"><div className="wrap"><div className="cards">{SOLUTIONS.map((it,i)=>{const s=svcById(it.id);return <article className="card spot" key={it.id} data-r style={{'--d':(i%3)*80+'ms'}}><div className="svc-top"><div className="ico"><Icon n={s?iconOf(s):'shield'}/></div>{s&&<span className="badge">{s.badge}</span>}</div><h3><Link className="stretch" to={'/services/'+it.id}>{it.name}</Link></h3><p>{it.desc}</p><div className="card-f"><span><Icon n="clock" s={15}/>{s?.timeline}</span><span className="more">Explore Solution<Icon n="right" s={16}/></span></div></article>})}</div></div></section>
-<FaqSection items={FAQ.solutions}/></>}
+<Frameworks/>
+<FaqSection alt items={FAQ.solutions}/></>}
